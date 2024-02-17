@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-      <a href="https://vitejs.dev" target="_blank">
+      <a href="https://github.com/mpcgt/levetica" target="_blank">
           <img src={lvtcLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
