@@ -4,6 +4,7 @@ import imagePath from './assets/levetica.svg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'
+import './index.css'
 
 function App() {
   let items = ["Accueil","Alternatives","Blog","À propos"];
@@ -15,26 +16,27 @@ function App() {
         imageSrcPath={imagePath} 
         navItems={items}
         />
-
+ 
+    <div className='center'>
       <a href="https://github.com/mpcgt/levetica" target="_blank">
-          <img src={imagePath} className="logo" alt="Vite logo" />
+          <img src="./src/assets/levetica-white.svg" height="20" width="20" className="logo" alt="Levetica" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo" alt="React logo" />
+          <img src={reactLogo} className="logo" alt="React" />
         </a>
+    </div>
       </div>
-      <h1>Découvrez nos recommandations des logiciels et des OS. 👨‍💻</h1>
-      <h3>Levetica + React = ❤️</h3>
-      <div className="card">
-        <p>
+      <div className='center'>
+      <h1 className='text'>Découvrez nos recommandations des logiciels et des OS. 👨‍💻</h1>
+      <h3 className='text'>Levetica + React = ❤️</h3>
+        <p className='text'>
           Levetica est actuellement en construction...
         </p>
       </div>
-      <p className="read-the-docs">
-        Levetica dans <a href="https://github.com/mpcgt/levetica">GitHub</a>
-      </p>
     <br />
     <br />
+    <div className='margin'>
+    <p className='text'>
       <strong>Annonces de Levetica : (11/02/2024)</strong>
     <br />
     <br /> 
@@ -51,14 +53,15 @@ function App() {
   <br />
   <br />
     <i>Max - Développeur web et créateur de Levetica</i>
+  </p>
   <br />
   <br />
   <br />
   <br />
-  <h2>Bonjour ! 👋🏼</h2>
+  <h2 className='text'>Bonjour ! 👋🏼</h2>
   <br />
   <br />
-      <p><b>Le monde numérique est dominé par les GAFAM</b> (Google, Amazon, Facebook, Apple et Microsoft). Ces géants du web offrent des services pratiques et populaires, mais ils <b>soulèvent également des inquiétudes</b> concernant la confidentialité, la surveillance, l'éthique et la concentration du pouvoir.
+      <p className='text'><b>Le monde numérique est dominé par les GAFAM</b> (Google, Amazon, Facebook, Apple et Microsoft). Ces géants du web offrent des services pratiques et populaires, mais ils <b>soulèvent également des inquiétudes</b> concernant la confidentialité, la surveillance, l'éthique et la concentration du pouvoir.
   <br />
   <br />
         <img alt="GAFAM" height="220" width="500" src="./src/assets/images/gafam.png" />
@@ -74,6 +77,7 @@ function App() {
   <br />
   <br />
       A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊</p>
+  </div>
   </>
   )
 }

@@ -2,3 +2,19 @@
     color: black;
     background-color: #f0f0f0;
 }
+
+body {
+    background-color: #000;
+  }
+
+.text {
+    color: white
+}
+
+.center {
+    text-align: center;
+}
+
+.margin {
+    margin: 15px
+}
