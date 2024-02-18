@@ -1,5 +1,6 @@
 import reactLogo from './assets/react.svg'
 import Navbar from './assets/components/Navbar.tsx'
+import FooterEnd from './assets/components/Footer.tsx'
 import imagePath from './assets/levetica.svg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -89,6 +90,9 @@ function App() {
   <br />
   <br />
       A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊
+  <br />
+  <br />
+      <FooterEnd />
   </div>
   </div>
   </>
