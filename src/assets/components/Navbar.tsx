@@ -35,7 +35,6 @@ function Navbar({ brandName, imageSrcPath , navItems}: NavBarProps) {
         className="collapse
         navbar-collapse
         align-items-start
-        d-flex
         flex-column
         flex-md-row" 
         id="navbarSupportedContent">
