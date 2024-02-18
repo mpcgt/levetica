@@ -1,6 +1,7 @@
 import reactLogo from './assets/react.svg'
 import Navbar from './assets/components/Navbar.tsx'
 import imagePath from './assets/levetica.svg'
+import lvtcw from './assets/leveticaw.svg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'
@@ -19,7 +20,7 @@ function App() {
  
     <div className='center'>
       <a href="https://github.com/mpcgt/levetica" target="_blank">
-          <img src="./src/assets/levetica-white.svg" height="20" width="20" className="logo" alt="Levetica" />
+          <img src={lvtcw} height="20" width="20" className="logo" alt="Levetica" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo" alt="React" />
