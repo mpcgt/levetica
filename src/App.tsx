@@ -32,14 +32,14 @@ function App() {
       <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻</h1>
       <h3 className='text'>Levetica + React = ❤️</h3>
         <p className='text'>
-          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img alt="Loading" height="24" width="24" src="../src/assets/images/loading.gif" />
+          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img alt="Loading" height="24" width="24" src="./src/assets/images/loading.gif" />
 
         </p>
       </div>
-    <br />
-    <br />
-    <div className='margin'>
-    <p className='text'>
+<br />
+    <div className='center'>
+    <div className='border'>
+    <p>
       <strong>Annonces de Levetica : (11/02/2024)</strong>
     <br />
     <br /> 
@@ -54,8 +54,12 @@ function App() {
   <br />
     <i>Max - Développeur web et créateur de Levetica</i>
   </p>
+  </div>
+  </div>
+  <div>
   <br />
   <br />
+  <div className='margin'>
   <h2>Bonjour ! 👋🏼</h2>
   <br />
   <br />
@@ -85,6 +89,7 @@ function App() {
   <br />
   <br />
       A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊
+  </div>
   </div>
   </>
   )
