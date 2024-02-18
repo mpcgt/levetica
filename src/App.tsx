@@ -1,13 +1,22 @@
 import reactLogo from './assets/react.svg'
-import lvtcLogo from './assets/levetica.svg'
+import Navbar from './assets/components/Navbar.tsx'
+import imagePath from './assets/levetica.svg'
+import 'bootstrap/dist/css/bootstrap.css'
 import './App.css'
 
 function App() {
+  let items = ["Accueil","Alternatives","Blog","À propos"];
   return (
     <>
       <div>
+        <Navbar 
+        brandName='Levetica' 
+        imageSrcPath={imagePath} 
+        navItems={items}
+        />
+
       <a href="https://github.com/mpcgt/levetica" target="_blank">
-          <img src={lvtcLogo} className="logo" alt="Vite logo" />
+          <img src={imagePath} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo" alt="React logo" />
