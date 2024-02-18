@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import Navbar from './assets/components/Navbar.tsx'
 import imagePath from './assets/levetica.svg'
-import lvtcw from './assets/leveticaw.svg'
+import lvtcw from './assets/lvtcw.png'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'
@@ -18,15 +18,17 @@ function App() {
         navItems={items}
         />
  
+      <br />
     <div className='center'>
       <a href="https://github.com/mpcgt/levetica" target="_blank">
-          <img src={lvtcw} height="20" width="20" className="logo" alt="Levetica" />
+          <img src={lvtcw} height="100" width="100" className="logo" alt="Levetica" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo" alt="React" />
+          <img src={reactLogo} height="100" width="100" className="logo" alt="React" />
         </a>
     </div>
       </div>
+      <br />
       <div className='center'>
       <h1 className='text'>Découvrez nos recommandations des logiciels et des OS. 👨‍💻</h1>
       <h3 className='text'>Levetica + React = ❤️</h3>
