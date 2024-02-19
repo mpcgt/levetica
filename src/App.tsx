@@ -4,8 +4,6 @@ import imagePath from './assets/levetica.svg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Text from './index.tsx'
-import './App.css'
-import './index.css'
 
 function App() {
   let items = ["Accueil","Outils","Articles","À propos"];

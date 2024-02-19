@@ -27,38 +27,35 @@ const FooterEnd = () => {
             <List lineHeight="2" justifyContent="center">
               <LinkItem text="Actualités" isTag={true} tagText="New" />
               <LinkItem text="Aide" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-
+              <LinkItem text="À propos" isTag={true} tagText="New" />
             </List>
           </Box>
           <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
             <Heading as="h5" color="gray.700" mb="0.5rem" fontSize="0.875rem" fontWeight="600">
-              Découvrir
+              Discover
             </Heading>
             <List lineHeight="2">
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
+              <LinkItem text="IDE" isTag={true} tagText="New" />
+              <LinkItem text="OS" isTag={true} tagText="New" />
+              <LinkItem text="Git" isTag={true} tagText="New" />
+              <LinkItem text="Services d'apprentissage du code" isTag={true} tagText="New" />
+              <LinkItem text="Générateurs de documentation" isTag={true} tagText="New" />
+              <LinkItem text="Gestionnaire de paquets" isTag={true} tagText="New" />
+              <LinkItem text="Systèmes de suivi des problèmes" isTag={true} tagText="New" />
             </List>
           </Box>
           <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
             <Heading as="h5" color="gray.700" mb="0.5rem" fontSize="0.875rem" fontWeight="600">
-              Bientôt
+              Programming
             </Heading>
             <List lineHeight="2">
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
-              <LinkItem text="Bientôt" isTag={true} tagText="New" />
+              <LinkItem text="Langages de programmation" isTag={true} tagText="New" />
+              <LinkItem text="Outils de développement Web" isTag={true} tagText="New" />
+              <LinkItem text="Outils de développement JavaScript" isTag={true} tagText="New" />
+              <LinkItem text="Outils de développement Mobile" isTag={true} tagText="New" />
+              <LinkItem text="Outils de développement de jeux" isTag={true} tagText="New" />
+              <LinkItem text="Cadres CSS" isTag={true} tagText="New" />
+              <LinkItem text="Gestionnaire de bases de données" isTag={true} tagText="New" />
             </List>
           </Box>
           <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
@@ -113,6 +110,7 @@ const FooterEnd = () => {
               <LinkItem text="Conditions" />
               <LinkItem text="Vie privée" />
               <LinkItem text="Plan du site" />
+              <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="levetica" data-color="#000000" data-emoji=""  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
             </List>
           </Box>
         </Flex>
