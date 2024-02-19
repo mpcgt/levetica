@@ -1,30 +1,28 @@
-# React + TypeScript + Vite
+# Levetica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img alt="Levetica" height="50" width="50" src="https://raw.githubusercontent.com/mpcgt/levetica/main/src/assets/lvtcw.png" />
 
-Currently, two official plugins are available:
+## Quel est le but de ce projet ?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</b>
 
-## Expanding the ESLint configuration
+<img alt="Dev" height="250" width="500" src="./src/assets/images/dev.png" />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Comment ça fonctionne ?
 
-- Configure the top-level `parserOptions` property like this:
+1. <b>Pour chaque outil et langage, le site fournit une description détaillée</b>, des exemples d'utilisation, des tutoriels et des liens vers la communauté.
+2. <b>Le développeur peut également consulter des articles et des guides</b> pour l'aider à choisir les meilleurs outils pour son projet.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+ ## Quels avantages ?
+ 
+1. <b>Gain de temps et d'énergie :</b> le développeur n'a pas à passer des heures à rechercher les outils et les langages qui lui conviennent.
+2. <b>Choix éclairé :</b> le développeur a accès à toutes les informations dont il a besoin pour prendre une décision réfléchie.
+3. <b>Développement plus efficace :</b> le développeur utilise les outils et les langages les plus adaptés à ses besoins, ce qui lui permet de travailler plus rapidement et de manière plus productive.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Quels public ciblés ?
+
+1. <b>Développeurs débutants</b> qui ne savent pas quels outils et langages choisir.
+2. <b>Développeurs expérimentés</b> qui recherchent de nouveaux outils pour améliorer leur productivité.
+3. <b>Étudiants en informatique</b> qui veulent découvrir les différents langages de programmation.
+
+À bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊
