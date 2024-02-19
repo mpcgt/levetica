@@ -92,7 +92,7 @@ function App() {
       A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊
   <br />
   <br />
-      <FooterEnd />
+    <FooterEnd />
   </div>
   </div>
   </>
