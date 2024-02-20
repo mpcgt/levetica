@@ -1,7 +1,7 @@
 import './App.css'
 import './index.css'
 
-function DataText() {
+function GameText() {
   return (
     <>
       <div className='center'>
@@ -27,4 +27,4 @@ function DataText() {
   )
 }
 
-export default DataText;
+export default GameText;
