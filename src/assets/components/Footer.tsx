@@ -32,7 +32,7 @@ const FooterEnd = () => {
           </Box>
           <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
             <Heading as="h5" color="gray.700" mb="0.5rem" fontSize="0.875rem" fontWeight="600">
-              Discover
+              Découvrir
             </Heading>
             <List lineHeight="2">
               <LinkItem text="IDE" isTag={true} tagText="New" />
@@ -46,7 +46,7 @@ const FooterEnd = () => {
           </Box>
           <Box w={{ base: '100%', sm: '50%', md: 'max-content' }} mb={{ base: '1.5rem', lg: '0' }}>
             <Heading as="h5" color="gray.700" mb="0.5rem" fontSize="0.875rem" fontWeight="600">
-              Programming
+              Programmer
             </Heading>
             <List lineHeight="2">
               <LinkItem text="Langages de programmation" isTag={true} tagText="New" />
