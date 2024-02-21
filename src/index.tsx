@@ -9,10 +9,10 @@ function Text() {
       <div>
       <br />
     <div className='center'>
-      <a href="https://levetica.vercel.app" target="_blank">
+      <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
           <img src={imagePath} height="100" width="100" className="logo" alt="Levetica" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" rel="noopener" target="_blank">
           <img src={reactLogo} height="100" width="100" className="logo" alt="React" />
         </a>
     </div>
