@@ -9,7 +9,7 @@ function Text() {
       <div>
       <br />
     <div className='center'>
-      <a href="https://github.com/mpcgt/levetica" target="_blank">
+      <a href="https://levetica.vercel.app" target="_blank">
           <img src={imagePath} height="100" width="100" className="logo" alt="Levetica" />
         </a>
         <a href="https://react.dev" target="_blank">
@@ -39,7 +39,7 @@ function Text() {
     Vous avez atteint le site web de <b>Levetica</b>, un site web de nos recommandations des logiciels, des outils et des sites web qui sont utiles selon vos besoins des développeurs.
   <br />
   <br />
-    N'hésitez pas à consulter le <a href="https://github.com/mpcgt/levetica">code source</a> du site et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet. Jetez aussi un coup d'oeil dans ce site si vous voulez en savoir plus dans Levetica. 😊
+    N'hésitez pas à consulter le <a href="https://levetica.vercel.app">code source</a> du site et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet. Jetez aussi un coup d'oeil dans ce site si vous voulez en savoir plus dans Levetica. 😊
   <br />
   <br />
     <i>Max - Développeur web et créateur de Levetica</i>
@@ -78,7 +78,7 @@ function Text() {
       <p>3. <b>Étudiants en informatique</b> qui veulent découvrir les différents langages de programmation.</p>
   <br />
   <br />
-      A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://github.com/mpcgt/levetica">GitHub</a> 😊
+      A bientôt et merci à ceux qui me soutiennent en laissant une ⭐ dans mon projet sur <a href="https://levetica.vercel.app">GitHub</a> 😊
   <br />
   <br />
   </div>

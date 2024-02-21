@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import DataText from './database-text.tsx'
+import Error from './database-text.tsx'
 
 function App() {
   return (
     <>
-      <DataText />
+      <Error />
   </>
   )
 }

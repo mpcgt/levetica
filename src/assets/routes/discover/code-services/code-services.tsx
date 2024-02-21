@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import CodeText from './code-text.tsx'
+import Error from './code-text.tsx'
 
 function App() {
   return (
     <>
-      <CodeText />
+      <Error />
   </>
   )
 }

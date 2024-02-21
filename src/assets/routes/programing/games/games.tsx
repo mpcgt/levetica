@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import GameText from './games-text.tsx'
+import Error from './games-text.tsx'
 
 function App() {
   return (
     <>
-      <GameText />
+      <Error />
   </>
   )
 }
