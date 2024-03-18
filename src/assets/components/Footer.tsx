@@ -25,7 +25,7 @@ const FooterEnd = () => {
               Levetica
             </Heading>
             <List lineHeight="2" justifyContent="center">
-              <LinkItem text="Actualités" isTag={true} tagText="New" />
+              <LinkItem text="Actualités" href="/.src/assets/routes/about.tsx" isTag={true} tagText="New" />
               <LinkItem text="Aide" isTag={true} tagText="New" />
               <LinkItem text="À propos" isTag={true} tagText="New" />
             </List>
