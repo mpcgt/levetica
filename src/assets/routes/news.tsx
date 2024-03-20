@@ -1,5 +1,3 @@
-import './App.css'
-
 function News() {
   return (
     <>
@@ -13,7 +11,7 @@ function News() {
        <p className="date">Samedi 20 mai 2023, 22h00</p>
        <h1>Bienvenue dans mon blog !</h1>
        <p className="description">...</p>
-       <p className="auteur">Aristocat</p>
+       <p className="auteur">Levetica</p>
      </div>
    </div> 
    
@@ -26,7 +24,7 @@ function News() {
        <p className="date">Dimanche 9 juillet 2023, 14h10</p>
        <h1>Voici la Tour Eiffel !</h1>
        <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cupiditate repellendus dolor necessitatibus. Modi, quos! Explicabo voluptates vero ullam quis ipsum impedit illum numquam cum quaerat animi? Ad, fugiat neque.</p>
-       <p className="auteur">Aristocat</p>
+       <p className="auteur">Levetica</p>
      </div>
    </div>
    
@@ -38,7 +36,7 @@ function News() {
        <p className="date">Mercredi 6 septembre 2023, 18h30</p>
        <h1>Les poulet et les frites, plat préféré des français.</h1>
        <p className="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad cupiditate repellendus dolor necessitatibus. Modi, quos! Explicabo voluptates vero ullam quis ipsum impedit illum numquam cum quaerat animi? Ad, fugiat neque.</p>
-       <p className="auteur">Aristocat</p>
+       <p className="auteur">Levetica</p>
      </div>
    </div>
  </section>
