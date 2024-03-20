@@ -1,5 +1,8 @@
 import reactLogo from './assets/react.svg'
 import imagePath from './assets/levetica.svg'
+import ang_react from '../src/assets/images/ang_react.png'
+import loading from '../src/assets/images/loading.gif'
+import dev from '../src/assets/images/dev.png'
 import './App.css'
 import './index.css'
 
@@ -22,7 +25,7 @@ function Text() {
       <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1>
       <h3 className='text'>Levetica + React = ❤️</h3>
         <p className='text'>
-          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img alt="Loading" height="24" width="24" src="./src/assets/images/loading.gif"/>
+          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img src={ang_react} alt="Angular vers React" /><img src={loading} alt='Loading' />
 
         </p>
       </div>
@@ -58,7 +61,7 @@ function Text() {
       <p>Aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</p>
   <br />
       <div className='center'>
-        <img alt="Dev" height="250" width="500" src="./src/assets/images/dev.png" />
+        <img alt="Dev" height="250" width="500" src={dev} />
       </div>
   <br />
   <h4><b><u>Comment ça fonctionne ?</u></b></h4>
