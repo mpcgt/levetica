@@ -1,5 +1,5 @@
 import Navbar from './assets/components/Navbar.tsx'
-import FooterLinks from './assets/components/FooterLinks.tsx'
+import FooterEnd from './assets/components/Footer.tsx'
 import imagePath from './assets/levetica.svg'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
@@ -15,7 +15,7 @@ function App() {
         navItems={items}
         />
       <Text />
-    <FooterLinks />
+    <FooterEnd />
   </>
   )
 }
