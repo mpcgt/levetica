@@ -58,7 +58,7 @@ function Text() {
       <p>Aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</p>
   <br />
       <div className='center'>
-      <img alt="Dev" height="250" width="500" src="./src/assets/images/dev.png" />
+        <img alt="Dev" height="250" width="500" src="./src/assets/images/dev.png" />
       </div>
   <br />
   <h4><b><u>Comment ça fonctionne ?</u></b></h4>

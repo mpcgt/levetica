@@ -11,7 +11,7 @@ function App() {
     <>
         <Navbar 
         brandName='Levetica' 
-        imageSrcPath={imagePath} 
+        imageSrcPath={imagePath}
         navItems={items}
         />
       <Text />
