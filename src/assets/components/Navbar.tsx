@@ -5,7 +5,7 @@ interface NavBarProps {
   navItems: string[];
 }
 
-function Navbar({ brandName, imageSrcPath , navItems}: NavBarProps) {
+function Navbar({imageSrcPath , navItems}: NavBarProps) {
     const [selectedIndex, setSelectedIndex] =useState(-1);
   return (
     <nav className="navbar navbar-expand-md bg-body-tertiary">
@@ -18,8 +18,9 @@ function Navbar({ brandName, imageSrcPath , navItems}: NavBarProps) {
             height="24"
             className="d-inline-block align-text-top"
           />
-          {brandName}
         </a>
+        </div>
+        <div className='center'>
         <button
           className="navbar-toggler"
           type="button"

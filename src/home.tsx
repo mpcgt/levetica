@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Dev from './dev.tsx'
 
 function App() {
-  let items = ["Accueil","Outils","Articles","À propos"];
+  let items = ["Accueil","Produits","Articles","À propos"];
   return (
     <>
         <Navbar 
