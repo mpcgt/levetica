@@ -29,7 +29,10 @@ function Text() {
 
         </p>
       </div>
-<br />
+    <br />
+      <button type="button" className="btn btn-dark">Entrer</button>
+    <br />
+
     <div className='center'>
     <div className='border'>
     <p>
