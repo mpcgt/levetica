@@ -1,7 +1,7 @@
 import imagePath from '../levetica.svg'
-import News from "../routes/news";
-import About from "../routes/about";
-import Tools from "../routes/tools";
+import News from "../routes/pages/news";
+import About from "../routes/pages/about";
+import Tools from "../routes/pages/tools";
 
 function NavBarNew() {
     return (
