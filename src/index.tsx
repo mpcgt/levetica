@@ -30,10 +30,10 @@ function Text() {
     <div className='center'>
     <div className='border'>
     <p>
-      <strong>Annonces de Levetica : (11/02/2024)</strong>
+      <strong>Annonces de Levetica : (20/03/2024)</strong>
     <br />
     <br /> 
-      Ce site web est actuellement en construction, ce site sera officiellement publiée en bêta à partir du <b>29 mars à 21h <i>(repoussé à 1 mois).</i></b>
+      Ce site web est actuellement en construction, ce site sera officiellement publiée en bêta le <b>1er juin 2024 à 21h</b>
   <br />
   <br />
     Vous avez atteint le site web de <b>Levetica</b>, un site web de nos recommandations des logiciels, des outils et des sites web qui sont utiles selon vos besoins des développeurs.
