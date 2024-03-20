@@ -3,8 +3,6 @@ import imagePath from './assets/levetica.svg'
 import ang_react from '../src/assets/images/ang_react.png'
 import loading from '../src/assets/images/loading.gif'
 import dev from '../src/assets/images/dev.png'
-import Home from "../src/home";
-import { BrowserRouter as Router, Route,} from "react-router-dom";
 import './App.css'
 import './index.css'
 
@@ -30,14 +28,6 @@ function Text() {
           <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img src={ang_react} height="45" width="45" alt="Angular vers React" /> <img src={loading} height="24" width="24" alt='Loading' />
         </p>
     <br />
-        <Router>
-          <Route>
-            <Route
-              path="/Home"
-              element={<Home />}
-              />
-          </Route>
-        </Router>
     <br />
   </div>
 
