@@ -1,4 +1,3 @@
-import NavBar from './assets/components/NavbarNew.tsx'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Home from '../src/index.tsx'
@@ -12,7 +11,6 @@ function App() {
   return (
     <>
     <div className='App'>
-      <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/outils' element={<Tools />} />
