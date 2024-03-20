@@ -4,6 +4,7 @@ import ang_react from '../src/assets/images/ang_react.png'
 import loading from '../src/assets/images/loading.gif'
 import dev from '../src/assets/images/dev.png'
 import Button from 'react-bootstrap/Button';
+import Home from "../src/home";
 import './App.css'
 import './index.css'
 
@@ -30,7 +31,7 @@ function Text() {
         </p>
     <br />
       <Button variant="secondary" size="lg">
-          <a href='./dev.tsx' />Entrer
+          <a ref={Home} />Entrer
       </Button>
     <br />
   </div>
