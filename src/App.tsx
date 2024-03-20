@@ -1,21 +1,33 @@
-import Navbar from './assets/components/Navbar.tsx'
-import imagePath from './assets/levetica.svg'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import Text from './index.tsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-function App() {
-  let items = ["Accueil","Produits","Articles","À propos"];
+import NavBar from '../src/NewNavBar';
+import '../src/index.css'
+import Home from '../src/index';
+import Products from '../src/assets/routes/pages/tools';
+import Articles from '../src/assets/routes/pages/news';
+import About from '../src/assets/routes/pages/about';
+
+const links = [
+  { to: '/', text: 'Accueil' },
+  { to: '/products', text: 'Produits' },
+  { to: '/articles', text: 'Articles' },
+  { to: '/about', text: 'À propos' },
+];
+
+const App = () => {
   return (
-    <>
-        <Navbar 
-        brandName='Levetica' 
-        imageSrcPath={imagePath}
-        navItems={items}
-        />
-      <Text />
-  </>
-  )
-}
+    <Router>
+      <div className="container">
+        <NavBar links={links} />
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/articles" element={<Articles />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
-export default App
+export default App;

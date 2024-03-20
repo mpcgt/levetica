@@ -60,3 +60,49 @@ button:focus-visible {
     background-color: #ffffff;
   }
 }
+
+/* NavBar */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+}
+
+nav.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+nav.navbar a.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem;
+}
+
+nav.navbar a.nav-link:hover {
+  color: #555;
+  background: #ddd;
+}
+
+nav.navbar a.nav-link.active {
+  font-weight: bold;
+}
