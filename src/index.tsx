@@ -3,6 +3,7 @@ import imagePath from './assets/levetica.svg'
 import ang_react from '../src/assets/images/ang_react.png'
 import loading from '../src/assets/images/loading.gif'
 import dev from '../src/assets/images/dev.png'
+import Button from 'react-bootstrap/Button';
 import './App.css'
 import './index.css'
 
@@ -29,10 +30,12 @@ function Text() {
 
         </p>
     <br />
-      <button type="button" className="btn btn-dark">Entrer</button>
+      <Button variant="secondary" size="lg">
+          Entrer
+      </Button>
     <br />
   </div>
-  
+
     <div className='center'>
     <div className='border'>
     <p>
