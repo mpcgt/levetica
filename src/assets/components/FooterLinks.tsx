@@ -1,6 +1,5 @@
 import { Text, Container, ActionIcon, Group, rem } from '@mantine/core';
 import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram } from '@tabler/icons-react';
-import LeveticaLogo from './assets/levetica.png'
 import classes from './FooterLinks.module.css';
 
 const data = [
@@ -59,7 +58,6 @@ export function FooterLinks() {
     <footer className={classes.footer}>
       <Container className={classes.inner}>
         <div className={classes.logo}>
-          <LeveticaLogo/>
           <Text size="xs" c="dimmed" className={classes.description}>
             Build fully functional accessible web applications faster than ever
           </Text>
