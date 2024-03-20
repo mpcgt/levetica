@@ -1,5 +1,4 @@
-import Navbar from './assets/components/Navbar.tsx'
-import imagePath from './assets/levetica.svg'
+import NavBar from './assets/components/NavbarNew.tsx'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Home from '../src/index.tsx'
@@ -10,10 +9,10 @@ import Text from './index.tsx'
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
-  let items = ["Accueil","Produits","Articles","À propos"];
   return (
     <>
     <div className='App'>
+      <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/outils' element={<Tools />} />
@@ -21,11 +20,6 @@ function App() {
         <Route path='/a-propos' element={<About />} />
       </Routes>
     </div>
-        <Navbar 
-        brandName='Levetica' 
-        imageSrcPath={imagePath}
-        navItems={items}
-        />
       <Text />
   </>
   )
