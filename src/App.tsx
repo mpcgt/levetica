@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import { Analytics } from "@vercel/analytics/react"
 import NavBar from '../src/NewNavBar';
 import '../src/index.css'
 import Home from '../src/index';
@@ -17,6 +18,7 @@ const links = [
 const App = () => {
   return (
     <Router>
+      <Analytics />
       <div className="container">
         <NavBar links={links} />
         <Routes>
