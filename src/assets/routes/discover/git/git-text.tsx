@@ -1,7 +1,7 @@
 import Error404 from './assets/404.svg'
 import './App.css'
 
-function Error() {
+function Git() {
   return (
     <>
 <div>
@@ -17,4 +17,4 @@ function Error() {
   </>
   )
 }
-export default Error;
+export default Git;

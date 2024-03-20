@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import JS from './js-text.tsx'
+import Conditions from './conditions-text.tsx'
 
 function App() {
   return (
     <>
-      <JS />
+      <Conditions />
   </>
   )
 }

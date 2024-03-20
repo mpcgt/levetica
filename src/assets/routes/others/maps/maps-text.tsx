@@ -1,7 +1,7 @@
 import Error404 from './assets/404.svg'
 import './App.css'
 
-function Issue() {
+function Maps() {
   return (
     <>
 <div>
@@ -17,4 +17,4 @@ function Issue() {
   </>
   )
 }
-export default Issue;
+export default Maps;

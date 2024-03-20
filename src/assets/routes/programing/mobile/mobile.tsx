@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import Error from './mobile-text.tsx'
+import Mobile from './mobile-text.tsx'
 
 function App() {
   return (
     <>
-      <Error />
+      <Mobile />
   </>
   )
 }

@@ -1,11 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import JS from './js-text.tsx'
+import Privacy from './privacy-text.tsx'
 
 function App() {
   return (
     <>
-      <JS />
+      <Privacy />
   </>
   )
 }

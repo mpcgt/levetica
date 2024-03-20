@@ -1,6 +1,27 @@
 import { Box, Heading, Flex, List, ListItem, Link, Text } from '@chakra-ui/react';
 import { BrowserRouter as Router, Route, redirect,} from "react-router-dom";
 
+import News from "../routes/blog";
+import Help from "../routes/help";
+import About from "../routes/about";
+import IDE from "../routes/discover/ide/ide";
+import OS from "../routes/discover/os/os";
+import Git from "../routes/discover/git/git";
+import Code from "../routes/discover/code-services/code-services";
+import Docs from "../routes/discover/documentation/documentation";
+import Pack from "../routes/discover/package/package";
+import Issues from "../routes/discover/issue/issue";
+import Languages from "../routes/programing/languages/languages";
+import Web from "../routes/programing/web-dev/web-dev";
+import JS from "../routes/programing/js/js";
+import Mobile from "../routes/programing/mobile/mobile";
+import Games from "../routes/programing/games/games";
+import CSS from "../routes/programing/css/css";
+import Database from "../routes/programing/database/database";
+import Conditions from "../routes/others/conditions/conditions";
+import Privacy from "../routes/others/privacy/privacy";
+import Maps from "../routes/others/maps/maps";
+
 const FooterEnd = () => {
   return (
     <Box
@@ -26,7 +47,7 @@ const FooterEnd = () => {
               Levetica
             </Heading>
             <List lineHeight="2" justifyContent="center">
-              <LinkItem text="Actualités" isTag={true} tagText="New" />
+              <Link href="News">Actualités</Link>
               <LinkItem text="Aide" isTag={true} tagText="New" />
               <LinkItem text="À propos" isTag={true} tagText="New" />
             </List>
