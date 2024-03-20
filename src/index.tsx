@@ -22,7 +22,7 @@ function Text() {
       <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1>
       <h3 className='text'>Levetica + React = ❤️</h3>
         <p className='text'>
-          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img alt="Loading" height="24" width="24" src="./src/assets/images/loading.gif" />
+          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img alt="Loading" height="24" width="24" src="./assets/images/loading.gif" />
 
         </p>
       </div>
