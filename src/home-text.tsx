@@ -1,15 +1,9 @@
-function Home() {
+const Home = () => {
   return (
-    <>
-<div>
-      <br />
-        <br />
-        <br />
-        <br />
-        <h4>D'une manière ou d'une autre, vous vous êtes perdu dans les profondeurs de l'espace.</h4><a href="https://levetica.vercel.app">Retour</a>
-</div>
-  </>
-  )
-}
-
+    <div>
+      <h1>Home Page</h1>
+    </div>
+  );
+};
+  
 export default Home;

@@ -5,6 +5,7 @@ import loading from '../src/assets/images/loading.gif'
 import dev from '../src/assets/images/dev.png'
 import Button from 'react-bootstrap/Button';
 import Home from "../src/home";
+import { BrowserRouter as Router, Route,} from "react-router-dom";
 import './App.css'
 import './index.css'
 
@@ -31,7 +32,14 @@ function Text() {
         </p>
     <br />
       <Button variant="secondary" size="lg">
-          <a ref={Home} />Entrer
+        <Router>
+          <Route>
+            <Route
+              path="/Home"
+              element={<Home />}
+              />
+          </Route>
+        </Router>
       </Button>
     <br />
   </div>
