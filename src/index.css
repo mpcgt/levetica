@@ -62,12 +62,6 @@ button:focus-visible {
 }
 
 /* NavBar */
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 .container {
   font-family: Arial, sans-serif;
   max-width: 1000px;
