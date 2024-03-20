@@ -1,5 +1,5 @@
 import imagePath from '../levetica.svg'
-import News from "../routes/blog";
+import News from "../routes/news";
 import About from "../routes/about";
 import Tools from "../routes/tools";
 
