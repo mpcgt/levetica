@@ -20,7 +20,6 @@ function Navbar({imageSrcPath , navItems}: NavBarProps) {
           />
         </a>
         </div>
-        <div className='center'>
         <button
           className="navbar-toggler"
           type="button"
@@ -57,7 +56,6 @@ function Navbar({imageSrcPath , navItems}: NavBarProps) {
             ))}
             </ul>
          </div>
-      </div>
     </nav>
   );
 }
