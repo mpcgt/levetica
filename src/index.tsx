@@ -28,11 +28,11 @@ function Text() {
           <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img src={ang_react} height="45" width="45" alt="Angular vers React" /><img src={loading} height="24" width="24" alt='Loading' />
 
         </p>
-      </div>
     <br />
       <button type="button" className="btn btn-dark">Entrer</button>
     <br />
-
+  </div>
+  
     <div className='center'>
     <div className='border'>
     <p>
