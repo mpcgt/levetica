@@ -1,4 +1,5 @@
 import { Box, Heading, Flex, List, ListItem, Link, Text } from '@chakra-ui/react';
+import { BrowserRouter as Router, Route, redirect,} from "react-router-dom";
 
 const FooterEnd = () => {
   return (
