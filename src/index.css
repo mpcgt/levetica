@@ -54,3 +54,13 @@ nav ul {
   font-family: "Pacifico", cursive;
   font-weight: normal;
 }
+
+
+@media screen and (max-width: 885px) {
+  nav {
+    text-align: center;
+  }
+  #logo {
+    padding: 2rem;
+  }
+}
