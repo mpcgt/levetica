@@ -126,5 +126,5 @@ nav .menu span {
 }
 
 .display {
-  display: inline-block
+  display: 'inline-block';
 }

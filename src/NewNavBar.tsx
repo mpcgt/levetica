@@ -6,8 +6,9 @@ const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
       <div className='display'>
-        <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" /><h2>Levetica</h2>
+        <img src={imagePathWhite} height="25" width="30" className="display" alt="Levetica" />
       </div>
+        <h2>Levetica</h2>
       <ul>
         {links.map((link) => (
           <li key={link.to}>
