@@ -21,9 +21,9 @@ const App = () => {
     <Router>
       <Analytics />
       <div className="header">
-      <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" />
-      <h3>Levetica</h3>
         <NavBar links={links} />
+        <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" />
+        <h3>Levetica</h3>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products />} />
