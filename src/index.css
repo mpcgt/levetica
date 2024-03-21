@@ -27,12 +27,7 @@ h1 {
 }
 
 /* NavBar */
-.main-head {
-  background: #000000;
-  color: #ffffff;
-}
-
-nav {
+.nav {
   min-height: 10vh;
   display: flex;
   align-items: center;
