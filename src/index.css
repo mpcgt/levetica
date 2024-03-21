@@ -22,8 +22,6 @@ a:hover {
   color: #535bf2;
 }
 
-
-
 h1 {
   font-size: 3.2em;
 }
@@ -35,7 +33,7 @@ h1 {
 }
 
 nav.navbar {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
@@ -44,17 +42,15 @@ nav.navbar {
 }
 
 nav.navbar ul {
-  display: flex;
+  display: none;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 1rem;
 }
 
 nav.navbar a.nav-link {
   text-decoration: none;
   color: #333;
-  padding: 0.5rem;
 }
 
 nav.navbar a.nav-link:hover {
