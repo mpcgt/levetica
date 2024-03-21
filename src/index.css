@@ -25,3 +25,32 @@ a:hover {
 h1 {
   font-size: 3.2em;
 }
+
+/* NavBar */
+.main-head {
+  background: #000000;
+  color: #ffffff;
+}
+
+nav {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+#logo {
+  flex: 2 1 40rem;
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+}
