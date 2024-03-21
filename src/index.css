@@ -38,13 +38,8 @@ h1 {
   left: 0;
   right: 0;
   height: 80px;
-  display: flex;
   align-items: center;
   box-shadow: 0 0 25px 0 black;
-}
-
-.header * {
-  display: inline;
 }
 
 .header li {
