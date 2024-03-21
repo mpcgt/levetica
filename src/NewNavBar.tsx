@@ -6,7 +6,7 @@ const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
       <div className='display'>
-        <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" /><h3>Levetica</h3>
+        <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" /><h2>Levetica</h2>
       </div>
       <ul>
         {links.map((link) => (
