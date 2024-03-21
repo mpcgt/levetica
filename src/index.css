@@ -36,7 +36,7 @@ h1 {
   flex-wrap: wrap;
 }
 
-nav ul {
+.nav ul {
   display: flex;
   flex: 1 1 40rem;
   justify-content: space-around;
