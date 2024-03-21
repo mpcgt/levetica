@@ -1,7 +1,4 @@
-import reactLogo from './assets/react.svg'
-import imagePathWhite from '../src/assets/lvtcw.png'
-import ang_react from '../src/assets/images/ang_react.png'
-import loading from '../src/assets/images/loading.gif'
+import imagePathWhite from '../src/assets/levetica-logo.png'
 import dev from '../src/assets/images/dev.png'
 import './App.css'
 import './index.css'
@@ -13,19 +10,20 @@ function Text() {
       <br />
     <div className='center'>
       <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
-          <img src={imagePathWhite} height="100" width="100" className="logo" alt="Levetica" />
+          <img src={imagePathWhite} height="250" width="450" className="logo" alt="Levetica" />
         </a>
-        <a href="https://react.dev" rel="noopener" target="_blank">
-          <img src={reactLogo} height="100" width="100" className="logo" alt="React" />
-        </a>
+          <a href="https://github.com/mpcgt/levetica/action">
+            <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>
+          <a href="https://github.com/mpcgt/levetica/releases">
+            <img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version" /></a>
+          <a href="https://github.com/mpcgt/levetica/commits/main/">
+            <img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity" /></a>
+          <a href="[https://github.com/mpcgt/levetica/issues">
+            <img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue" /></a>
     </div>
       </div>
       <div className='center'>
       <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1>
-      <h3 className='text'>Levetica + React = ❤️</h3>
-        <p className='text'>
-          <i>Levetica est actuellement en construction, ce site passe de Angular à React </i><img src={ang_react} height="45" width="45" alt="Angular vers React" /> <img src={loading} height="24" width="24" alt='Loading' />
-        </p>
     <br />
   </div>
 
