@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Analytics } from "@vercel/analytics/react"
 import NavBar from '../src/NewNavBar';
-import imagePathWhite from '../src/assets/lvtcw.png'
 import '../src/index.css'
 import Home from '../src/index';
 import Products from '../src/assets/routes/pages/tools';
@@ -22,8 +21,6 @@ const App = () => {
       <Analytics />
       <div className="header">
         <NavBar links={links} />
-        <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" />
-        <h3>Levetica</h3>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products />} />
