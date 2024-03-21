@@ -1,5 +1,5 @@
 import reactLogo from './assets/react.svg'
-import imagePath from './assets/levetica.svg'
+import imagePathWhite from '../src/assets/lvtcw.png'
 import ang_react from '../src/assets/images/ang_react.png'
 import loading from '../src/assets/images/loading.gif'
 import dev from '../src/assets/images/dev.png'
@@ -13,7 +13,7 @@ function Text() {
       <br />
     <div className='center'>
       <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
-          <img src={imagePath} height="100" width="100" className="logo" alt="Levetica" />
+          <img src={imagePathWhite} height="100" width="100" className="logo" alt="Levetica" />
         </a>
         <a href="https://react.dev" rel="noopener" target="_blank">
           <img src={reactLogo} height="100" width="100" className="logo" alt="React" />
