@@ -124,3 +124,7 @@ nav .menu span {
       margin: 0.2rem 0.5rem;
   }
 }
+
+.float {
+  float: left
+}

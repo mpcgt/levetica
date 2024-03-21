@@ -1,10 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import imagePathWhite from '../src/assets/lvtcw.png'
+import '../src/index.css'
 
 const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
+      <div className='float'>
         <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" /><h3>Levetica</h3>
+      </div>
       <ul>
         {links.map((link) => (
           <li key={link.to}>
