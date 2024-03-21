@@ -125,6 +125,6 @@ nav .menu span {
   }
 }
 
-.display {
-  display: 'inline-block';
+.float {
+  float: right;
 }
