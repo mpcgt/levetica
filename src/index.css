@@ -32,7 +32,7 @@ h1 {
 
 /* NavBar */
 .active{
-  background-color: #1d4ed8;
+  background-color: #cccccc;
 }
 
 nav {
@@ -81,6 +81,7 @@ nav .menu {
   right: 0.5rem;
   flex-direction: column;
   justify-content: space-between;
+  border-radius: 30px;
   width: 2.25rem;
   height: 2rem;
 }
