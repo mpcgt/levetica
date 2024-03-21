@@ -1,14 +1,11 @@
 import { NavLink } from 'react-router-dom';
-import imagePathWhite from '../src/assets/lvtcw.png'
+import imagePath from '../src/assets/levetica.png'
 import '../src/index.css'
 
 const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
-      <div className='text-right'>
-        <img src={imagePathWhite} height="25" width="30" className="text-right" alt="Levetica" />
-      </div>
-        <h2>Levetica</h2>
+        <img src={imagePath} height="30" width="35" alt="Levetica" />
       <ul>
         {links.map((link) => (
           <li key={link.to}>
