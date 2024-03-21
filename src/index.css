@@ -62,11 +62,6 @@ button:focus-visible {
 }
 
 /* NavBar */
-.container {
-  font-family: Arial, sans-serif;
-  margin: 0 auto;
-}
-
 nav.navbar {
   display: flex;
   justify-content: space-between;
