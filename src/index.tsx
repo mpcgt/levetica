@@ -53,7 +53,6 @@ function Text() {
   <br />
   <div className='margin'>
   <h2>Bonjour ! 👋🏼</h2>
-  <br />
       <h4><b><u>Quel est le but de ce projet ?</u></b></h4>
       <p>Aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</p>
   <br />
