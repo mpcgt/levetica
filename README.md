@@ -1,6 +1,12 @@
-# Levetica
-
-<img alt="Levetica" height="50" width="50" src="https://raw.githubusercontent.com/mpcgt/levetica/main/src/assets/lvtcw.png" />
+<p align="center">
+<img alt="Levetica" height="250" width="450" src="https://raw.githubusercontent.com/mpcgt/levetica/fc01cc6487e06c625d0c3bef95d79d0c8462eb32/src/assets/levetica-logo.png" />
+</p>
+<p align="center">
+<a href="https://github.com/mpcgt/levetica/action"><img src="https://img.shields.io/badge/build-passing-green" alt="Version"></a>
+<a href="https://github.com/mpcgt/levetica/releases"><img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version"></a>
+<a href="https://github.com/mpcgt/levetica/commits/main/"><img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity"></a>
+<a href="[https://github.com/mpcgt/levetica/issues"><img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue"></a>
+</p>
 
 ## Quel est le but de ce projet ?
 
