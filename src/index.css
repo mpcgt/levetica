@@ -39,7 +39,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0f172a;
+  background-color: #cccccc;
   border-radius: 30px;
   color: white;
   position: sticky;
