@@ -125,6 +125,6 @@ nav .menu span {
   }
 }
 
-.float {
-  float: left
+.display {
+  display: inline-block
 }

@@ -5,7 +5,7 @@ import '../src/index.css'
 const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
-      <div className='float'>
+      <div className='display'>
         <img src={imagePathWhite} height="25" width="30" className="logo" alt="Levetica" /><h3>Levetica</h3>
       </div>
       <ul>
