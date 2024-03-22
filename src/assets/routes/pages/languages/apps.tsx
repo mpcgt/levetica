@@ -1,13 +1,12 @@
 import '../pages.css'
 import firefox from '../images/firefox.png'
+import win from '../images/win11.png'
 
 function Apps() {
     return (
       <>
-      <div>
        <div className='center' />
-        <h1>Bientôt disponible !</h1>
-    </div>
+        <h1>Logiciels pour Windows<img alt="Windows" height="40" width="40" src={win} /></h1>
     <div className='border'>
       <div className='margin'>
       <div className='float'>
