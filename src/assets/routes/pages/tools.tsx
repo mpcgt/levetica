@@ -1,13 +1,13 @@
 import '../routes/pages/pages.css'
 import { useNavigate } from 'react-router-dom';
-import opensource from '../src/assets/images/opensource.png'
-import react from '../src/assets/images/react.png'
-import angular from '../src/assets/images/angular.png'
-import vue from '../src/assets/images/vue.png'
-import html from '../src/assets/images/html.png'
-import css from '../src/assets/images/css.png'
-import js from '../src/assets/images/js.png'
-import ts from '../src/assets/images/ts.png'
+import opensource from '../others/languages/images/opensource.png'
+import react from '../others/languages/images/react.png'
+import angular from '../others/languages/images/angular.png'
+import vue from '../others/languages/images/vue.png'
+import html from '../others/languages/images/html.png'
+import css from '../others/languages/images/css.png'
+import js from '../others/languages/images/js.png'
+import ts from '../others/languages/images/ts.png'
 
 function Tools() {
   const navigate = useNavigate();
