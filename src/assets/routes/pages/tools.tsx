@@ -1,4 +1,4 @@
-import '../routes/pages/pages.css'
+import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
 
 import opensource from '../others/languages/images/opensource.png'
