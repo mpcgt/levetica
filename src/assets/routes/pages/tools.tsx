@@ -1,16 +1,27 @@
 import '../pages/pages.css'
+import { useNavigate } from 'react-router-dom';
 
 function Tools() {
+  const navigate = useNavigate();
   return (
     <>
     <div>
      <div className='center' />
-      <h1>Bientôt disponible !</h1>
-    </div>
+      <h1>Guide d'outils pour les développeurs</h1>
       <br />
       <div className='margin'>
-      <h2><b>Guide d'outils pour les développeurs</b></h2>
       <h4>Les outils adaptés par langages de programmation sont des ressources essentielles pour les développeurs, leur permettant de travailler de manière efficace et efficiente dans un environnement de développement spécifique à chaque langage. Ces outils sont conçus pour répondre aux besoins particuliers des développeurs travaillant dans un langage spécifique, en offrant des fonctionnalités telles que la syntaxe de coloration, la complétion automatique de code, la vérification de la syntaxe, le débogage et le profilage. Ces outils permettent aux développeurs de gagner du temps, de réduire les erreurs et d'améliorer leur productivité en fournissant un environnement de développement spécialement adapté aux particularités et aux exigences de chaque langage de programmation.</h4>
+    </div>
+    <br />
+      <button onClick={() => navigate("/apps")}>Applications</button>
+      <button onClick={() => navigate("/react")}>React</button>
+      <button onClick={() => navigate("/angular")}>Angular</button>
+      <button onClick={() => navigate("/vue")}>Vue</button>
+      <button onClick={() => navigate("/html")}>HTML</button>
+      <button onClick={() => navigate("/css")}>CSS</button>
+      <button onClick={() => navigate("/js")}>JavaScript</button>
+      <button onClick={() => navigate("/ts")}>TypeScript</button>
+      <button onClick={() => navigate("/reactn")}>React Native</button>
   </div>
   </>
   )
