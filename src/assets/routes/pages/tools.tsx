@@ -24,13 +24,13 @@ function Tools() {
     </div>
     <br />
     <div className='center'>
-      <button onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="30" src={opensource} />Applications</button>
+      <button onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource} />Applications</button>
       <button onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react} />React</button>
-      <button onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="30" src={angular} />Angular</button>
+      <button onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular} />Angular</button>
       <button onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue} />Vue</button>
       <button onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html} />HTML</button>
-      <button onClick={() => navigate("/css")}><img alt="CSS" height="25" width="30" src={css} />CSS</button>
-      <button onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="30" src={js} />JavaScript</button>
+      <button onClick={() => navigate("/css")}><img alt="CSS" height="25" width="25" src={css} />CSS</button>
+      <button onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js} />JavaScript</button>
       <button onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts} />TypeScript</button>
       <button onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react} />React Native</button>
     </div>
