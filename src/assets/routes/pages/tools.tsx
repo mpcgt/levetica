@@ -1,6 +1,6 @@
 import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
-import opensource from '../src/assets/images/programmation/open-source.png'
+import opensource from '../src/assets/images/programmation/opensource.png'
 import react from '../src/assets/images/programmation/react.png'
 import angular from '../src/assets/images/programmation/angular.png'
 import vue from '../src/assets/images/programing/vue.png'
