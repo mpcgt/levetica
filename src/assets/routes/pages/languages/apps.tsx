@@ -5,8 +5,9 @@ import win from '../images/win11.png'
 function Apps() {
     return (
       <>
-       <div className='center' />
-        <h1>Logiciels pour Windows<img alt="Windows" height="40" width="40" src={win} /></h1>
+       <div className='center'>
+        <h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1>
+       </div>
     <div className='border'>
       <div className='margin'>
       <div className='float'>
