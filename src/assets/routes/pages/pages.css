@@ -15,3 +15,7 @@
 a {
     color: #d3d3d3;
   }
+
+  .float {
+    float: left;
+  }

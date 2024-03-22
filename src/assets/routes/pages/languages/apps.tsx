@@ -9,7 +9,9 @@ function Apps() {
         <h1>Bientôt disponible !</h1>
     </div>
     <div className='border'>
-    <img alt="Firefox" height="50" width="50" src={firefox} /><h2><a href='https://www.mozilla.org/fr/firefox/new/'>Mozilla Firefox</a></h2>
+      <div className='float'>
+    <img alt="Firefox" height="50" width="50" src={firefox} /><h2><a href='https://www.mozilla.org/fr/firefox/new/' target='_blank'>Mozilla Firefox</a></h2>
+      </div>
       <h4>Navigateur web | Gratuit • Open Source</h4>
       <h3>Navigateur web libre et open source, issu de la suite d'applications Mozilla. Firefox est très extensible, avec des milliers d'extensions tierces disponibles.</h3>
   <br />
