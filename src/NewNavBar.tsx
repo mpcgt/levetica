@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import imagePath from '../src/assets/levetica.png'
+import imagePath from '../src/assets/lvtcw.png'
 import '../src/index.css'
 
 const NavBar = ({ links }) => {
