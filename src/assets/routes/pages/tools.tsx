@@ -1,5 +1,7 @@
 import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 import opensource_png from '../others/languages/images/opensource.png'
 import react_png from '../others/languages/images/react.png'
