@@ -1,6 +1,6 @@
 .navbar-nav .nav-item .nav-link:hover{
     color: black;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 .navbar-custom {
@@ -24,6 +24,6 @@
 
 .error {
     text-align: center;
-    background-color: #000000;
-    color: #ffffff
+    background-color: #000;
+    color: #fff
 }

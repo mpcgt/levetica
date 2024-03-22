@@ -62,7 +62,7 @@ const FooterEnd = () => {
             <Link to="Conditions">Conditions</Link>
             <Link to="Privacy">Vie privée</Link>
             <Link to="Maps">Plan du site</Link>
-              <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="levetica" data-color="#000000" data-emoji=""  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+              <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="levetica" data-color="#000" data-emoji=""  data-font="Poppins" data-text="Buy me a coffee" data-outline-color="#fff" data-font-color="#fff" data-coffee-color="#FFDD00" ></script>
             </List>
           </Box>
         <Text color="gray.600" fontSize="0.875rem" pl="0.5rem">
