@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import NavBar from '../src/NewNavBar';
 import '../src/index.css'
 import Home from '../src/index';
-import Products from './assets/images/tools';
+import Products from '../src/assets/routes//pages/tools';
 import Articles from '../src/assets/routes/pages/news';
 import About from '../src/assets/routes/pages/about';
 
