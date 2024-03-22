@@ -1,6 +1,5 @@
 import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
-import opensource from '../src/assets/images/programmation/opensource.png'
 import react from '../src/assets/images/programmation/react.png'
 import angular from '../src/assets/images/programmation/angular.png'
 import vue from '../src/assets/images/programing/vue.png'
@@ -21,7 +20,7 @@ function Tools() {
       <h4>Les outils adaptés par langages de programmation sont des ressources essentielles pour les développeurs, leur permettant de travailler de manière efficace et efficiente dans un environnement de développement spécifique à chaque langage. Ces outils sont conçus pour répondre aux besoins particuliers des développeurs travaillant dans un langage spécifique, en offrant des fonctionnalités telles que la syntaxe de coloration, la complétion automatique de code, la vérification de la syntaxe, le débogage et le profilage. Ces outils permettent aux développeurs de gagner du temps, de réduire les erreurs et d'améliorer leur productivité en fournissant un environnement de développement spécialement adapté aux particularités et aux exigences de chaque langage de programmation.</h4>
     </div>
     <br />
-      <button onClick={() => navigate("/apps")}><img alt="Open-Source" height="30" width="35" src={opensource} />Applications</button>
+      <button onClick={() => navigate("/apps")}>Applications</button>
       <button onClick={() => navigate("/react")}><img alt="React" height="30" width="35" src={react} />React</button>
       <button onClick={() => navigate("/angular")}><img alt="Angular" height="30" width="35" src={angular} />Angular</button>
       <button onClick={() => navigate("/vue")}><img alt="Vue" height="30" width="35" src={vue} />Vue</button>
