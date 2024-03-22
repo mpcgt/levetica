@@ -1,14 +1,14 @@
 import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
 
-import opensource from '../others/languages/images/opensource.png'
-import react from '../others/languages/images/react.png'
-import angular from '../others/languages/images/angular.png'
-import vue from '../others/languages/images/vue.png'
-import html from '../others/languages/images/html.png'
-import css from '../others/languages/images/css.png'
-import js from '../others/languages/images/js.png'
-import ts from '../others/languages/images/ts.png'
+import opensource_png from '../others/languages/images/opensource.png'
+import react_png from '../others/languages/images/react.png'
+import angular_png from '../others/languages/images/angular.png'
+import vue_png from '../others/languages/images/vue.png'
+import html_png from '../others/languages/images/html.png'
+import css_png from '../others/languages/images/css.png'
+import js_png from '../others/languages/images/js.png'
+import ts_png from '../others/languages/images/ts.png'
 
 function Tools() {
   const navigate = useNavigate();
@@ -24,15 +24,15 @@ function Tools() {
     </div>
     <br />
     <div className='center'>
-      <button onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource} />Applications</button>
-      <button onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react} />React</button>
-      <button onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular} />Angular</button>
-      <button onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue} />Vue</button>
-      <button onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html} />HTML</button>
-      <button onClick={() => navigate("/css")}><img alt="CSS" height="25" width="25" src={css} />CSS</button>
-      <button onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js} />JavaScript</button>
-      <button onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts} />TypeScript</button>
-      <button onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react} />React Native</button>
+      <button onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource_png} />Applications</button>
+      <button onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react_png} />React</button>
+      <button onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular_png} />Angular</button>
+      <button onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue_png} />Vue</button>
+      <button onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html_png} />HTML</button>
+      <button onClick={() => navigate("/css")}><img alt="CSS" height="25" width="25" src={css_png} />CSS</button>
+      <button onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>
+      <button onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>
+      <button onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>
     </div>
   </div>
   </>
