@@ -5,3 +5,13 @@
 .center {
     text-align: center;
 }
+
+.border {
+    width: 80%;
+    margin: 20px auto; /*Centre les div dans la page*/
+    border-radius: 10px;
+}
+
+a {
+    color: #d3d3d3;
+  }
