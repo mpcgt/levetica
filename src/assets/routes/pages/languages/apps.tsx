@@ -57,7 +57,7 @@ function Apps() {
     <img alt="VSCode" height="70" width="70" src={vscode} /><h2><a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a></h2>
       </div>
       <h4><i>Éditeur de code | Gratuit • Open Source</i></h4>
-      <h3>Visual Studio Code est un éditeur de code gratuit, open source et multiplateforme qui prend en charge de nombreux langages et fonctionnalités.</h3>
+      <h3>Visual Studio Code (VS Code) est un éditeur de code optimisé pour le développement moderne d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer directement depuis l’éditeur, et une intégration native avec Git.</h3>
   <br />
       <h2><b>Les fonctionnalités de Visual Studio Code :</b></h2>
       <h3><u>• Prise en charge des thèmes 🎨 :</u> Vous pouvez utiliser des thèmes et des modèles pour modifier l’apparence de Visual Studio Code.</h3>
@@ -77,7 +77,7 @@ function Apps() {
     <img alt="GitHub" height="70" width="70" src={github} /><h2><a href='https://github.com/' target='_blank'>GitHub</a></h2>
       </div>
       <h4><i>Système de contrôle de version | Freemium • Propriétaire</i></h4>
-      <h3>GitHub est un service d’hébergement de référentiels Git basé sur le Web.</h3>
+      <h3>GitHub est une plateforme de développement collaboratif qui permet aux développeurs de stocker et de gérer leur code en ligne, tout en facilitant le suivi des modifications. C’est aussi un réseau social où les développeurs peuvent collaborer sur des projets, partager des idées et apprendre les uns des autres.</h3>
   <br />
       <h2><b>Les fonctionnalités de GitHub :</b></h2>
       <h3><u>• Gestion des versions de fichiers 📂 :</u> GitHub dispose d’un système de version qui vous permet d’afficher et de revenir à des versions antérieures du projet/fichier/document.</h3>
