@@ -13,6 +13,10 @@ function Text() {
           <img src={imagePathWhite} height="250" width="450" className="logo" alt="Levetica" />
         </a>
         <br />
+        <a href="https://levetica.vercel.app">
+          <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>
+        <a href="https://github.com/mpcgt/levetica">
+          <img src="https://img.shields.io/badge/maintained?-no-red" alt="Maintenance" /></a>
           <a href="https://github.com/mpcgt/levetica/action">
             <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>
           <a href="https://github.com/mpcgt/levetica/releases">
