@@ -3,7 +3,7 @@
 </p>
 <p align="center">
 <a href="https://levetica.vercel.app"><img src="https://img.shields.io/badge/website-operational-green" alt="Site"></a>
-<a href="https://github.com/mpcgt/levetica"><img src="https://img.shields.io/badge/maintained?-no-red" alt="Maintenance"></a>
+<a href="https://github.com/mpcgt/levetica"><img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance"></a>
 <a href="https://github.com/mpcgt/levetica/releases"><img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version"></a>
 <a href="https://github.com/mpcgt/levetica/commits/main/"><img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity"></a>
 <a href="[https://github.com/mpcgt/levetica/issues"><img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue"></a>

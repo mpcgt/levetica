@@ -16,7 +16,7 @@ function Text() {
         <a href="https://levetica.vercel.app">
           <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>
         <a href="https://github.com/mpcgt/levetica">
-          <img src="https://img.shields.io/badge/maintained?-no-red" alt="Maintenance" /></a>
+          <img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance" /></a>
           <a href="https://github.com/mpcgt/levetica/action">
             <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>
           <a href="https://github.com/mpcgt/levetica/releases">
