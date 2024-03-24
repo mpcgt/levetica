@@ -57,7 +57,7 @@ function Apps() {
     <img alt="VSCode" height="70" width="70" src={vscode} /><h2><a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a></h2>
       </div>
       <h4><i>Éditeur de code | Gratuit • Open Source</i></h4>
-      <h3>Visual Studio Code (VS Code) est un éditeur de code optimisé pour le développement moderne d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer directement depuis l’éditeur, et une intégration native avec Git.</h3>
+      <h3>Visual Studio Code (VS Code) est un éditeur de code pour le développement d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer depuis l’éditeur, et une intégration avec Git.</h3>
   <br />
       <h2><b>Les fonctionnalités de Visual Studio Code :</b></h2>
       <h3><u>• Prise en charge des thèmes 🎨 :</u> Vous pouvez utiliser des thèmes et des modèles pour modifier l’apparence de Visual Studio Code.</h3>
