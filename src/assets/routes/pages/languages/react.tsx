@@ -5,13 +5,13 @@ function React() {
       <>
       <div>
        <div className='center'>
-       <h1>Outils pour React<img alt="React" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/react.png?raw=true' /></h1>
+       <h1>Outils pour React<img alt="React" height="65" width="75" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/react.png?raw=true' /></h1>
        </div>
 
        <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="React Dev" height="70" width="70" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/react.png?raw=true' /><h2><a href='https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil' target='_blank'>React Developer Tools</a></h2>
+    <img alt="React Dev" height="70" width="80" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/react.png?raw=true' /><h2><a href='https://microsoftedge.microsoft.com/addons/detail/react-developer-tools/gpphkfbcpidddadnkolkpfckpihlkkil' target='_blank'>React Developer Tools</a></h2>
       </div>
       <h4><i>Extensions de navigateur | Gratuit • Open Source</i></h4>
       <h3>React Developer Tools est une extension de navigateur qui permet d’inspecter et de modifier les hiérarchies de composants React. Elle offre également des outils pour identifier les problèmes de performance et pour éditer les props et l’état des composants.</h3>

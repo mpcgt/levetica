@@ -29,7 +29,7 @@ function Tools() {
       <button className="btn elevated rounded" onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular_png} />Angular</button>
       <button className="btn elevated rounded" onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue_png} />Vue</button>
       <button className="btn elevated rounded" onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html_png} />HTML</button>
-      <button className="btn elevated rounded" onClick={() => navigate("/css")}><img alt="CSS" height="25" width="25" src={css_png} />CSS</button>
+      <button className="btn elevated rounded" onClick={() => navigate("/css")}><img alt="CSS" height="25" width="20" src={css_png} />CSS</button>
       <button className="btn elevated rounded" onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>
       <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>
       <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>
