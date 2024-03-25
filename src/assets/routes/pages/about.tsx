@@ -4,10 +4,8 @@ function About() {
   return (
     <>
     <div>
-     <div className='center' />
-      <h1>Bientôt disponible !</h1>
-      <br />
-      <h2><b>À propos de Levetica</b></h2>
+     <div className='center'>
+      <h1><b>À propos de Levetica</b></h1>
       <div className='center'>
       <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
           <img src='https://github.com/mpcgt/levetica/blob/main/src/assets/levetica-logo.png?raw=true' height="250" width="450" className="logo" alt="Levetica" />
@@ -33,6 +31,7 @@ function About() {
             <br />
         <h2>Ce projet a le potentiel de révolutionner la façon dont les développeurs travaillent en leur offrant un chemin unique pour trouver tous les outils et les langages dont ils ont besoin.</h2>
         </div>
+  </div>
   </div>
   </>
   )
