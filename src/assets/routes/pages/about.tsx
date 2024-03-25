@@ -1,5 +1,4 @@
-import './App.css'
-import './index.css'
+import '../pages/pages.css'
 
 function About() {
   return (
