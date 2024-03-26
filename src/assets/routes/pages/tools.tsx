@@ -24,15 +24,15 @@ function Tools() {
     </div>
     <br />
     <div className='center'>
-      <button className="btn elevated rounded" onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource_png} />Applications</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react_png} />React</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular_png} />Angular</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue_png} />Vue</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html_png} />HTML</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/css")}><img alt="CSS" height="25" width="20" src={css_png} />CSS</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>&nbsp;
-      <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource_png} />Applications</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react_png} />React</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular_png} />Angular</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue_png} />Vue</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/html")}><img alt="HTML" height="25" width="30" src={html_png} />HTML</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/css")}><img alt="CSS" height="25" width="20" src={css_png} />CSS</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>&nbsp;&nbsp;
+      <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>&nbsp;&nbsp;
     </div>
   </div>
   </>
