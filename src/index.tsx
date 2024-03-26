@@ -14,17 +14,17 @@ function Text() {
         </a>
         <br />
         <a href="https://levetica.vercel.app">
-          <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>
+          <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>&nbsp;&nbsp;
         <a href="https://github.com/mpcgt/levetica">
-          <img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance" /></a>
+          <img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance" /></a>&nbsp;&nbsp;
           <a href="https://github.com/mpcgt/levetica/action">
-            <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>
+            <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>&nbsp;&nbsp;
           <a href="https://github.com/mpcgt/levetica/releases">
-            <img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version" /></a>
+            <img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version" /></a>&nbsp;&nbsp;
           <a href="https://github.com/mpcgt/levetica/commits/main/">
-            <img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity" /></a>
+            <img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity" /></a>&nbsp;&nbsp;
           <a href="[https://github.com/mpcgt/levetica/issues">
-            <img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue" /></a>
+            <img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue" /></a>&nbsp;&nbsp;
     </div>
       </div>
       <div className='center'>
@@ -35,7 +35,7 @@ function Text() {
     <div className='center'>
     <div className='border'>
     <p>
-      <strong>Annonces de Levetica : (20/03/2024)</strong>
+      <strong><u>Annonces de Levetica : (20/03/2024)</u></strong>
     <br />
     <br /> 
       Ce site web est actuellement en construction, ce site sera officiellement publiée en bêta le <b>1er juin 2024 à 21h</b>

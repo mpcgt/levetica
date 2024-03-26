@@ -43,7 +43,7 @@ function Apps() {
       <h3><u>• Autocomplétion ✏️ :</u> Visual Studio Code peut prédire et compléter le reste d’un mot ou d’une expression que vous tapez.</h3>
       <h3><u>• Prise en charge de Git 🛠️ :</u> Visual Studio Code prend en charge Git, un système de contrôle de version distribué gratuit et open source.  </h3>
       <h3><u>• Fonctionne hors ligne ✈️ :</u> Visual Studio Code peut être utilisé sans qu’il soit nécessaire de se connecter à Internet.</h3>
-      <h3><u>• Extensible par plugins/extensions 🛠️ :</u> MVisual Studio Code peut être étendu avec des modules complémentaires, des plug-ins et des extensions.</h3>
+      <h3><u>• Extensible par plugins/extensions 🛠️ :</u> Visual Studio Code peut être étendu avec des modules complémentaires, des plug-ins et des extensions.</h3>
   </div>
   </div>
 
