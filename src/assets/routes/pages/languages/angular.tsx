@@ -5,13 +5,13 @@ function Angular() {
       <>
       <div>
        <div className='center'>
-       <h1>Outils pour Angular<img alt="Angular" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /></h1>
+       <h1>Outils pour Angular<img alt="Angular" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /></h1> { /* Un logo avec le texte qui fait 65px de hauteur et 65px de largeur */ } 
     </div>
 
     <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="Angular IDE" height="70" width="70" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /><h2><a href='https://angular.dev' target='_blank'>Angular IDE</a></h2>
+    <img alt="Angular IDE" height="70" width="70" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /><h2><a href='https://angular.dev' target='_blank'>Angular IDE</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
       <h4><i>Environnement de développement | Gratuit • Open Source</i></h4>
       <h3>Angular IDE est un environnement de développement intégré (IDE) spécialement conçu pour le framework Angular. Il est disponible sous forme de plugin autonome, il facilite le développement en offrant des fonctionnalités spécifiques au framework</h3>

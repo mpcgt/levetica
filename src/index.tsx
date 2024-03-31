@@ -8,32 +8,32 @@ function Text() {
     <>
       <div>
       <br />
-    <div className='center'>
-      <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
-          <img src={imagePathWhite} height="250" width="450" className="logo" alt="Levetica" />
+    <div className='center'> { /* Centrer le texte */ }
+      <a href="https://levetica.vercel.app" rel="noopener" target="_blank"> { /* Lien cliquable sur l'image/logo */ }
+          <img src={imagePathWhite} height="250" width="450" className="logo" alt="Levetica" /> { /* Un logo qui fait 250px de hauteur et 450px de largeur */ }
         </a>
         <br />
-        <a href="https://levetica.vercel.app">
-          <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>&nbsp;&nbsp;
-        <a href="https://github.com/mpcgt/levetica">
-          <img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance" /></a>&nbsp;&nbsp;
-          <a href="https://github.com/mpcgt/levetica/action">
-            <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>&nbsp;&nbsp;
-          <a href="https://github.com/mpcgt/levetica/releases">
-            <img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version" /></a>&nbsp;&nbsp;
-          <a href="https://github.com/mpcgt/levetica/commits/main/">
-            <img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity" /></a>&nbsp;&nbsp;
-          <a href="[https://github.com/mpcgt/levetica/issues">
-            <img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue" /></a>&nbsp;&nbsp;
+        <a href="https://levetica.vercel.app"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+          <img src="https://img.shields.io/badge/website-operational-green" alt="Site" /></a>&nbsp;&nbsp; { /* Voir si le site fonctionne bien actuellement */ }
+        <a href="https://github.com/mpcgt/levetica"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+          <img src="https://img.shields.io/badge/Maintained%3F-no-red" alt="Maintenance" /></a>&nbsp;&nbsp; { /* Voir si le site est actuellement en maintenance */ }
+          <a href="https://github.com/mpcgt/levetica/action"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+            <img src="https://img.shields.io/badge/build-passing-green" alt="Version" /></a>&nbsp;&nbsp; { /* Voir si le site n'a pas de problème (bugs, syntaxe...) */ }
+          <a href="https://github.com/mpcgt/levetica/releases"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+            <img src="https://img.shields.io/github/v/release/mpcgt/levetica" alt="Version" /></a>&nbsp;&nbsp; { /* Voir la dernière version du site */ }
+          <a href="https://github.com/mpcgt/levetica/commits/main/"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+            <img src="https://img.shields.io/github/commit-activity/m/mpcgt/levetica" alt="Commit Activity" /></a>&nbsp;&nbsp; { /* Voir le nombre de commits en moyenne chaque mois */ }
+          <a href="[https://github.com/mpcgt/levetica/issues"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
+            <img src="https://img.shields.io/github/issues/mpcgt/levetica" alt="Issue" /></a>&nbsp;&nbsp; { /* Voir s'il y a un issue qui est ouvert actuellement ou pas */ }
     </div>
       </div>
-      <div className='center'>
-      <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1>
+      <div className='center'> { /* Centrer le texte */ }
+      <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1> { /* Titre */ }
     <br />
   </div>
 
-    <div className='center'>
-    <div className='border'>
+    <div className='center'> { /* Centrer le texte */ }
+    <div className='border'> { /* Crée un bloc en arrondi et en gris */ }
     <p>
       <strong><u>Annonces de Levetica : (20/03/2024)</u></strong>
     <br />
@@ -54,13 +54,13 @@ function Text() {
   <div>
   <br />
   <br />
-  <div className='margin'>
+  <div className='margin'> { /* Décale le texte en 15px */ }
   <h2>Bonjour ! 👋🏼</h2>
       <h4><b><u>Quel est le but de ce projet ?</u></b></h4>
       <p>Aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</p>
   <br />
-      <div className='center'>
-        <img alt="Dev" height="250" width="500" src={dev} />
+      <div className='center'> { /* Centrer le texte */ }
+        <img alt="Dev" height="250" width="500" src={dev} /> { /* Une image qui fait 250px de hauteur et 500px de largeur */ }
       </div>
   <br />
   <h4><b><u>Comment ça fonctionne ?</u></b></h4>

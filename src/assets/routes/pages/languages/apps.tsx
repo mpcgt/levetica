@@ -7,13 +7,13 @@ import win from '../images/win11.png'
 function Apps() {
     return (
       <>
-       <div className='center'>
-        <h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1>
+       <div className='center'> { /* Centrer le texte */ }
+        <h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
        </div>
   <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="Edge" height="70" width="70" src={edge} /><h2><a href='https://developer.microsoft.com/fr-fr/microsoft-edge/?form=MA13LH' target='_blank'>Microsoft Edge Developer</a></h2>
+    <img alt="Edge" height="70" width="70" src={edge} /><h2><a href='https://developer.microsoft.com/fr-fr/microsoft-edge/?form=MA13LH' target='_blank'>Microsoft Edge Developer</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
       <h4><i>Navigateur web | Gratuit • Propriétaire</i></h4>
       <h3>Elle est destinée à planifier et développer avec les fonctionnalités les plus récentes de Microsoft Edge. Ce canal vous permet d’avoir un coup d’œil sur les prochaines versions et de préparer la prochaine version bêta.</h3>
@@ -33,7 +33,7 @@ function Apps() {
   <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="VSCode" height="70" width="70" src={vscode} /><h2><a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a></h2>
+    <img alt="VSCode" height="70" width="70" src={vscode} /><h2><a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
       <h4><i>Éditeur de code | Gratuit • Open Source</i></h4>
       <h3>Visual Studio Code (VS Code) est un éditeur de code pour le développement d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer depuis l’éditeur, et une intégration avec Git.</h3>
@@ -53,7 +53,7 @@ function Apps() {
   <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="GitHub" height="70" width="70" src={github} /><h2><a href='https://github.com/' target='_blank'>GitHub</a></h2>
+    <img alt="GitHub" height="70" width="70" src={github} /><h2><a href='https://github.com/' target='_blank'>GitHub</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
       <h4><i>Système de contrôle de version | Freemium • Propriétaire</i></h4>
       <h3>GitHub est une plateforme de développement collaboratif qui permet aux développeurs de stocker et de gérer leur code en ligne, tout en facilitant le suivi des modifications. C’est aussi un réseau social où les développeurs peuvent collaborer sur des projets, partager des idées et apprendre les uns des autres.</h3>
