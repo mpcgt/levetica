@@ -1,11 +1,14 @@
+import '../pages/pages.css'
+
 function News() {
   return (
     <>
     <div>
      <div className='center' />
-      <h1>Bientôt disponible !</h1>
+      <h1>Articles Levetica</h1>
       <br />
-      <h2><b>Articles Levetica</b></h2>
+      <hr />
+      
       <h4></h4>
   </div>
   </>

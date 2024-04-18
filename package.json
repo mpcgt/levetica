@@ -37,6 +37,7 @@
     "embla-carousel-react": "^8.0.0",
     "flowbite-react": "^0.7.2",
     "lucide-react": "^0.331.0",
+    "npm": "^10.5.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18.2.0",
