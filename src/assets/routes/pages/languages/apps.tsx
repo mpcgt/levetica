@@ -1,5 +1,6 @@
 import '../pages.css'
 import chrome from '../images/chrome.png'
+import idx from '../images/idx.png'
 import vscode from '../images/vscode.png'
 import github from '../images/github.png'
 import win from '../images/win11.png'
@@ -33,7 +34,7 @@ function Apps() {
   <div className='border'>
       <div className='margin'>
       <div className='float'>
-    <img alt="IDX" height="70" width="70" src={vscode} /><h2><a href='https://idx.dev/' target='_blank'>Project IDX</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
+    <img alt="IDX" height="70" width="70" src={idx} /><h2><a href='https://idx.dev/' target='_blank'>Project IDX</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
       <h4><i>Éditeur de code | Gratuit • Propriétaire</i></h4>
       <h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3>
