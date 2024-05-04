@@ -9,8 +9,6 @@ function Vue() {
        <div className='center'>
        <h1>Outils pour Vue<img alt="Vue" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/vue.png?raw=true' /></h1>
     </div>
-    <br />
-  <br />
   <div className='border'>
       <div className='margin'>
       <div className='float'>
