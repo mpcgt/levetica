@@ -35,6 +35,7 @@ function Tools() {
       <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>&nbsp;&nbsp;
       <br />
+      <br />
       <button className="btn elevated rounded" onClick={() => navigate("/tuto")}><img alt="Tutoriels" height="25" width="30" src={tuto_png} />Apprendre</button>&nbsp;&nbsp;
     </div>
   </div>
