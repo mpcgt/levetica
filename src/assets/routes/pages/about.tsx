@@ -30,8 +30,10 @@ function About() {
           <p>3. <b>Étudiants en informatique</b> qui veulent découvrir les différents langages de programmation.</p>
             <br />
             <br />
+      <div className='center'>
         <h2>Ce projet a le potentiel de révolutionner la façon dont les développeurs travaillent en leur offrant un chemin unique pour trouver tous les outils et les langages dont ils ont besoin.</h2>
         </div>
+      </div>
   </div>
   </>
   )

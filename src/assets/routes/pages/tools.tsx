@@ -37,6 +37,8 @@ function Tools() {
       <br />
       <br />
       <button className="btn elevated rounded" onClick={() => navigate("/tuto")}><img alt="Tutoriels" height="25" width="30" src={tuto_png} />Apprendre</button>&nbsp;&nbsp;
+
+    <h4>Les noms des applications sont des liens cliquables qui vous redirigent vers le site officiel de l'application.</h4>
     </div>
   </div>
   </>
