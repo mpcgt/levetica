@@ -16,6 +16,7 @@ import React from '../src/assets/routes/pages/languages/react'
 import Reactn from '../src/assets/routes/pages/languages/reactn'
 import TS from '../src/assets/routes/pages/languages/ts'
 import Vue from '../src/assets/routes/pages/languages/vue'
+import Tuto from '../src/assets/routes/pages/languages/tuto'
 
 const links = [
   { to: '/', text: 'Accueil' },
@@ -44,6 +45,7 @@ const App = () => {
           <Route path='/reactn' element={<Reactn />} />
           <Route path='/ts' element={<TS />} />
           <Route path='/vue' element={<Vue />} />
+          <Route path='/tuto' element={<Tuto />} />
         </Routes>
       </div>
     </Router>

@@ -9,6 +9,7 @@ import html_png from '../others/languages/images/html.png'
 import css_png from '../others/languages/images/css.png'
 import js_png from '../others/languages/images/js.png'
 import ts_png from '../others/languages/images/ts.png'
+import tuto_png from '../others/languages/images/tuto.png'
 
 function Tools() {
   const navigate = useNavigate();
@@ -33,6 +34,8 @@ function Tools() {
       <button className="btn elevated rounded" onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>&nbsp;&nbsp;
+      <br />
+      <button className="btn elevated rounded" onClick={() => navigate("/tuto")}><img alt="Tutoriels" height="25" width="30" src={tuto_png} />Apprendre</button>&nbsp;&nbsp;
     </div>
   </div>
   </>
