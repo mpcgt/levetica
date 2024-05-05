@@ -5,17 +5,15 @@ import idx from '../images/idx.png'
 function CSS() {
     return (
       <>
-      <div>
-       <div className='center'>
-       <h1>Outils pour CSS<img alt="CSS" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/css.png?raw=true' /></h1>
-    </div>
-    <div className='border'>
+      <div className='center'> { /* Centrer le texte */ }
+      <h1>Outils pour CSS <img alt="CSS" height="65" width="55" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/css.png?raw=true' /></h1>       </div>
+  <div className='border'>
       <div className='margin'>
       <div className='float'>
     <img alt="Chrome" height="70" width="70" src={chrome} /><h2><a href='https://www.google.com/intl/fr_fr/chrome/' target='_blank'>Google Chrome</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Navigateur web | Gratuit • Propriétaire</i></h4>
-      <h3>Google Chrome est un navigateur web gratuit, rapide, sécurisé et personnalisable, disponible sur ordinateurs et appareils mobiles.</h3>
+      <h4><i>Navigateur web</i><i><div className='green'>Gratuit • Propriétaire</div></i></h4>
+      <div className='center'><h3>Google Chrome est un navigateur web gratuit, rapide, sécurisé et personnalisable, disponible sur ordinateurs et appareils mobiles.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de Google Chrome :</b></h2>
       <h3><u>• Traduction des sites web 📝 :</u> Google Chrome utilise un traducteur intégré pour traduire le contenu dans n’importe quelle langue en temps réel.</h3>
@@ -34,8 +32,8 @@ function CSS() {
       <div className='float'>
     <img alt="IDX" height="70" width="70" src={idx} /><h2><a href='https://idx.dev/' target='_blank'>Project IDX</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Éditeur de code | Gratuit • Propriétaire</i></h4>
-      <h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3>
+      <h4><i>Éditeur de code</i><i><div className='green'>Gratuit • Propriétaire</div></i></h4>
+      <div className='center'><h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de Project IDX :</b></h2>
       <h3><u>• Création d'applications multiplateformes 📱 :</u> Vous pouvez créer des applications qui fonctionnent sur le Web, les appareils mobiles et les ordinateurs de bureau avec un seul ensemble de code..</h3>
@@ -45,7 +43,6 @@ function CSS() {
       <h3><u>• Intelligence artificielle intégrée 🤖 :</u> Project IDX utilise l'IA pour vous aider à prendre de meilleures décisions en matière de conception et de développement.</h3>
   </div>
   </div>
-    </div>
     </>
     )
   }

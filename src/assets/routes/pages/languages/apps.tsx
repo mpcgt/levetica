@@ -9,7 +9,9 @@ function Apps() {
     return (
       <>
        <div className='center'> { /* Centrer le texte */ }
-       <div className='ahsing'><h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1></div> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
+       <div className='ahsing'><h1>Logiciels pour Windows <img alt="Windows" height="65" width="65" src={win} /></h1></div> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
+       <h2><b>Boostez votre créativité et votre efficacité avec cette sélection d'applications essentielles pour les développeurs sur Windows.</b></h2>
+       <hr />
        </div>
   <div className='border'>
       <div className='margin'>
