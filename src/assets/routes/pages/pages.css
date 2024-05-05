@@ -19,3 +19,52 @@ a {
   .float {
     float: left;
   }
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.purple {
+    color: purple;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.pink {
+    color: pink;
+}
+
+.gray {
+    color: gray;
+}
+
+@font-face {
+    font-family: ahsing;
+    src: url(../fonts/ahsing.ttf);
+}
+
+.ahsing {
+    font-family: ahsing;
+}

@@ -4,12 +4,13 @@ function News() {
   return (
     <>
     <div>
-     <div className='center' />
-      <h1>Articles Levetica</h1>
+     <div className='center'>
+        <div className='ahsing'><h1>Articles Levetica</h1></div>
       <br />
       <hr />
       
-      <h4></h4>
+      <h1>Bientôt disponible !</h1>
+    </div>
   </div>
   </>
   )

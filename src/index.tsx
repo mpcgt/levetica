@@ -28,7 +28,7 @@ function Text() {
     </div>
       </div>
       <div className='center'> { /* Centrer le texte */ }
-      <h1 className='text'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1> { /* Titre */ }
+      <h1 className='ahsing'>Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️</h1> { /* Titre */ }
     <br />
   </div>
 

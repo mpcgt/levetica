@@ -17,7 +17,7 @@ function Tools() {
     <>
     <div>
      <div className='center'>
-      <h1>Guide d'outils pour les développeurs</h1>
+     <div className='ahsing'><h1>Guide d'outils pour les développeurs</h1></div>
      </div>
       <br />
       <div className='margin'>

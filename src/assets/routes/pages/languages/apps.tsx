@@ -9,15 +9,15 @@ function Apps() {
     return (
       <>
        <div className='center'> { /* Centrer le texte */ }
-        <h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
+       <div className='ahsing'><h1>Logiciels pour Windows<img alt="Windows" height="65" width="65" src={win} /></h1></div> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
        </div>
   <div className='border'>
       <div className='margin'>
       <div className='float'>
     <img alt="Chrome" height="70" width="70" src={chrome} /><h2><a href='https://www.google.com/intl/fr_fr/chrome/' target='_blank'>Google Chrome</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Navigateur web | Gratuit • Propriétaire</i></h4>
-      <h3>Google Chrome est un navigateur web gratuit, rapide, sécurisé et personnalisable, disponible sur ordinateurs et appareils mobiles.</h3>
+      <h4><i>Navigateur web</i><i><div className='green'>Gratuit • Propriétaire</div></i></h4>
+      <div className='center'><h3>Google Chrome est un navigateur web gratuit, rapide, sécurisé et personnalisable, disponible sur ordinateurs et appareils mobiles.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de Google Chrome :</b></h2>
       <h3><u>• Traduction des sites web 📝 :</u> Google Chrome utilise un traducteur intégré pour traduire le contenu dans n’importe quelle langue en temps réel.</h3>
@@ -36,8 +36,8 @@ function Apps() {
       <div className='float'>
     <img alt="IDX" height="70" width="70" src={idx} /><h2><a href='https://idx.dev/' target='_blank'>Project IDX</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Éditeur de code | Gratuit • Propriétaire</i></h4>
-      <h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3>
+      <h4><i>Éditeur de code</i><i><div className='green'>Gratuit • Propriétaire</div></i></h4>
+      <div className='center'><h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de Project IDX :</b></h2>
       <h3><u>• Création d'applications multiplateformes 📱 :</u> Vous pouvez créer des applications qui fonctionnent sur le Web, les appareils mobiles et les ordinateurs de bureau avec un seul ensemble de code..</h3>
@@ -56,8 +56,8 @@ function Apps() {
       <div className='float'>
     <img alt="VSCode" height="70" width="70" src={vscode} /><h2><a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Éditeur de code | Gratuit • Open Source</i></h4>
-      <h3>Visual Studio Code (VS Code) est un éditeur de code pour le développement d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer depuis l’éditeur, et une intégration avec Git.</h3>
+      <h4><i>Éditeur de code</i><i><div className='green'>Gratuit • Open Source</div></i></h4>
+      <div className='center'><h3>Visual Studio Code (VS Code) est un éditeur de code pour le développement d’applications web et cloud. Il offre des fonctionnalités telles que IntelliSense pour des suggestions intelligentes, la possibilité de déboguer depuis l’éditeur, et une intégration avec Git.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de Visual Studio Code :</b></h2>
       <h3><u>• Prise en charge des thèmes 🎨 :</u> Vous pouvez utiliser des thèmes et des modèles pour modifier l’apparence de Visual Studio Code.</h3>
@@ -76,8 +76,8 @@ function Apps() {
       <div className='float'>
     <img alt="GitHub" height="70" width="70" src={github} /><h2><a href='https://github.com/' target='_blank'>GitHub</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Système de contrôle de version | Freemium • Propriétaire</i></h4>
-      <h3>GitHub est une plateforme de développement collaboratif qui permet aux développeurs de stocker et de gérer leur code en ligne, tout en facilitant le suivi des modifications. C’est aussi un réseau social où les développeurs peuvent collaborer sur des projets, partager des idées et apprendre les uns des autres.</h3>
+      <h4><i>Système de contrôle de version</i><i><div className='green'>Freemium • Propriétaire</div></i></h4>
+      <div className='center'><h3>GitHub est une plateforme de développement collaboratif qui permet aux développeurs de stocker et de gérer leur code en ligne, tout en facilitant le suivi des modifications. C’est aussi un réseau social où les développeurs peuvent collaborer sur des projets, partager des idées et apprendre les uns des autres.</h3></div>
   <br />
       <h2><b>Les fonctionnalités de GitHub :</b></h2>
       <h3><u>• Gestion des versions de fichiers 📂 :</u> GitHub dispose d’un système de version qui vous permet d’afficher et de revenir à des versions antérieures du projet/fichier/document.</h3>
