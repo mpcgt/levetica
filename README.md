@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Levetica" height="250" width="450" src="https://raw.githubusercontent.com/mpcgt/levetica/fc01cc6487e06c625d0c3bef95d79d0c8462eb32/src/assets/levetica-logo.png" />
+<img alt="Levetica" height="250" width="450" src="https://raw.githubusercontent.com/mpcgt/levetica/main/src/assets/levetica-logo.png" />
 </p>
 <p align="center">
 <a href="https://levetica.vercel.app"><img src="https://img.shields.io/badge/website-operational-green" alt="Site"></a>

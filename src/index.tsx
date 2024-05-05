@@ -10,7 +10,7 @@ function Text() {
       <br />
     <div className='center'> { /* Centrer le texte */ }
       <a href="https://levetica.vercel.app" rel="noopener" target="_blank"> { /* Lien cliquable sur l'image/logo */ }
-          <img src={imagePathWhite} height="350" width="550" className="logo" alt="Levetica" /> { /* Un logo qui fait 250px de hauteur et 450px de largeur */ }
+          <img src={imagePathWhite} height="250" width="450" className="logo" alt="Levetica" /> { /* Un logo qui fait 250px de hauteur et 450px de largeur */ }
         </a>
         <br />
         <a href="https://levetica.vercel.app"> { /* URL qui va être regirigé lorsqu'il clique sur la souris */ }
