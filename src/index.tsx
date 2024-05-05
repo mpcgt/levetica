@@ -2,16 +2,6 @@ import imagePathWhite from '../src/assets/levetica-logo.png'
 import dev from '../src/assets/images/dev.png'
 import './App.css'
 import './index.css'
-// import ReactGA from "react-ga";
-import ReactGA from "react-ga4";
-
-ReactGA.initialize("G-C9NJF08G05");
-
-// Send pageview with a custom path
-ReactGA.send({ 
-  hitType: "pageview",
-  page: window.location.pathname,
-});
 
 function Text() {
   return (
