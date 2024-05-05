@@ -8,7 +8,7 @@ function About() {
       <h1><b>À propos de Levetica</b></h1>
       <div className='center'>
       <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
-          <img src='https://github.com/mpcgt/levetica/blob/main/src/assets/levetica-logo.png?raw=true' height="350" width="600" className="logo" alt="Levetica" />
+          <img src='https://github.com/mpcgt/levetica/blob/main/src/assets/levetica-home.png?raw=true' height="350" width="600" className="logo" alt="Levetica" />
         </a>
       </div>
         </div>

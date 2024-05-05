@@ -1,4 +1,4 @@
-import imagePathWhite from '../src/assets/levetica-logo.png'
+import imagePathWhite from '../src/assets/lvtcw-home.png'
 import dev from '../src/assets/images/dev.png'
 import './App.css'
 import './index.css'
