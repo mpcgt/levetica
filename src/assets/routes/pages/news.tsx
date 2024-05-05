@@ -29,7 +29,7 @@ function News() {
 
       <div className="card">
       <div className="card-header">
-      <div className='black'><h2>Image Levetica</h2></div>
+      <div className='black'><h2>Levetica</h2></div>
       </div>
       <div className="card-body">
         <h3>Les articles seront bientôt disponible dans Levetica !</h3>
@@ -44,7 +44,7 @@ function News() {
 
       <div className="card">
       <div className="card-header">
-      <div className='black'><h2>Image Levetica</h2></div>
+      <div className='black'><h2>Levetica</h2></div>
       </div>
       <div className="card-body">
         <h3>Les articles seront bientôt disponible dans Levetica !</h3>
@@ -59,7 +59,7 @@ function News() {
 
     <div className="card">
     <div className="card-header">
-    <div className='black'><h2>Image Levetica</h2></div>
+    <div className='black'><h2>Levetica</h2></div>
     </div>
     <div className="card-body">
       <h3>Les articles seront bientôt disponible dans Levetica !</h3>
@@ -74,7 +74,7 @@ function News() {
 
     <div className="card">
     <div className="card-header">
-    <div className='black'><h2>Image Levetica</h2></div>
+    <div className='black'><h2>Levetica</h2></div>
     </div>
     <div className="card-body">
       <h3>Les articles seront bientôt disponible dans Levetica !</h3>
