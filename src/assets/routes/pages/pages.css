@@ -68,3 +68,29 @@ a {
 .ahsing {
     font-family: ahsing;
 }
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    height: 150px;
+    margin-bottom: 20px; /* Ajuster la largeur de l'image selon vos besoins */
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 75px;
+    border-radius: 20px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-footer {
+    text-align: right;
+    padding: 10px;
+    font-style: italic;
+    color: #999;
+  }
+  
