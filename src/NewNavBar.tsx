@@ -5,7 +5,7 @@ import '../src/index.css'
 const NavBar = ({ links }) => {
   return (
     <nav className="navbar">
-        <img src={imagePath} height="30" width="35" alt="Levetica" />
+        <img src={imagePath} height="40" width="45" alt="Levetica" />
       <ul>
         {links.map((link) => (
           <li key={link.to}>
