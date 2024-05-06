@@ -1,18 +1,12 @@
-import Navbar from './assets/components/Navbar.tsx'
-import imagePath from './assets/levetica.svg'
+import NavBarNew from './assets/components/NavbarNew.tsx'
 import tools from '../src/assets/images/tools.png'
 import './App.css'
 import './index.css'
 
 function Dev() {
-  let items = ["Accueil","Produits","Articles","À propos"];
   return (
     <>
-      <Navbar 
-        brandName='Levetica' 
-        imageSrcPath={imagePath}
-        navItems={items}
-      />
+      <NavBarNew />
       <div className='center'>
         <img alt="Tools" height="450" width="700" src={tools} />
       </div>
