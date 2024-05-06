@@ -3,7 +3,6 @@ import chrome from '../images/chrome.png'
 import idx from '../images/idx.png'
 import vscode from '../images/vscode.png'
 import github from '../images/github.png'
-import win from '../images/win11.png'
 
 function Apps() {
     return (
@@ -13,7 +12,7 @@ function Apps() {
       <br />
       <br />
        <div className='center'> { /* Centrer le texte */ }
-       <div className='ahsing'><h1>Logiciels pour Windows <img alt="Windows" height="65" width="65" src={win} /></h1></div> { /* Une image qui fait 65px de hauteur et 65px de largeur */ }
+       <div className='ahsing'><h1>Logiciels pour Windows </h1></div>
        <h2><b>Boostez votre créativité et votre efficacité avec cette sélection d'applications essentielles pour les développeurs sur Windows.</b></h2>
        <hr />
        </div>

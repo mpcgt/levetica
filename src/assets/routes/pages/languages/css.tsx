@@ -10,7 +10,7 @@ function CSS() {
       <br />
       <br />
       <div className='center'> { /* Centrer le texte */ }
-      <h1>Outils pour CSS <img alt="CSS" height="65" width="55" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/css.png?raw=true' /></h1>       </div>
+      <h1>Outils pour CSS </h1></div>
   <div className='border'>
       <div className='margin'>
       <div className='float'>

@@ -12,7 +12,7 @@ function Angular() {
       <br />
       <br />
        <div className='center'>
-       <h1>Outils pour Angular<img alt="Angular" height="65" width="65" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /></h1> { /* Un logo avec le texte qui fait 65px de hauteur et 65px de largeur */ } 
+       <h1>Outils pour Angular</h1>
     </div>
     <div className='border'>
       <div className='margin'>
