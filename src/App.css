@@ -7,12 +7,13 @@
     background-color: #303030;
 }
 
-.center {
-    text-align: center;
-}
 
 .margin {
     margin: 15px
+}
+
+.center {
+    text-align: center;
 }
 
 .border {

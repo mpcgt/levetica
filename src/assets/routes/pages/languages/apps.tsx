@@ -89,6 +89,12 @@ function Apps() {
       <h3><u>• Mode sombre 🌗 :</u> GitHub prend en charge le mode sombre pour une utilisation confortable dans des conditions de faible luminosité.</h3>
   </div>
   </div>
+
+  <br />
+  <br />
+
+
+
     </>
     )
   }
