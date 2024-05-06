@@ -4,6 +4,10 @@ function About() {
   return (
     <>
     <div>
+      <br />
+      <br />
+      <br />
+      <br />
      <div className='center'>
      <div className='ahsing'><h1><b>À propos de Levetica</b></h1></div>
       <div className='center'>

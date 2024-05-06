@@ -5,6 +5,10 @@ import idx from '../images/idx.png'
 function CSS() {
     return (
       <>
+      <br />
+      <br />
+      <br />
+      <br />
       <div className='center'> { /* Centrer le texte */ }
       <h1>Outils pour CSS <img alt="CSS" height="65" width="55" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/css.png?raw=true' /></h1>       </div>
   <div className='border'>

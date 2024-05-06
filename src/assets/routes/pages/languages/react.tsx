@@ -6,6 +6,10 @@ function React() {
     return (
       <>
       <div>
+      <br />
+      <br />
+      <br />
+      <br />
        <div className='center'>
        <h1>Outils pour React<img alt="React" height="65" width="75" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/react.png?raw=true' /></h1> { /* Un logo avec le texte qui fait 65px de hauteur et 75px de largeur */ }
        </div>
