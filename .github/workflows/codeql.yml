@@ -82,9 +82,3 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
-
-# Dependency Review
-
-              - name: Dependency Review
-                uses: actions/dependency-review-action@v4.3.2
-            
