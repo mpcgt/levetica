@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Analytics } from "@vercel/analytics/react"
-import NavBar from '../src/NewNavBar';
+import Navbar from '../src/assets/components/Navbar'
 import '../src/index.css'
 import Home from '../src/index';
 import Products from '../src/assets/routes/pages/tools';
@@ -18,19 +18,12 @@ import TS from '../src/assets/routes/pages/languages/ts'
 import Vue from '../src/assets/routes/pages/languages/vue'
 import Tuto from '../src/assets/routes/pages/languages/tuto'
 
-const links = [
-  { to: '/', text: 'Accueil' },
-  { to: '/products', text: 'Produits' },
-  { to: '/articles', text: 'Articles' },
-  { to: '/about', text: 'À propos' },
-];
-
 const App = () => {
   return (
     <Router>
       <Analytics />
       <div className="header">
-        <NavBar links={links} />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products />} />
