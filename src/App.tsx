@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Analytics } from "@vercel/analytics/react"
-import Navbar from '../src/assets/components/Navbar'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import Navbar from '../src/assets/components/NewNavbar'
 import '../src/index.css'
 import Home from '../src/index';
 import Products from '../src/assets/routes/pages/tools';
@@ -22,6 +23,7 @@ const App = () => {
   return (
     <Router>
       <Analytics />
+      <SpeedInsights />
       <div className="header">
         <Navbar />
         <Routes>
