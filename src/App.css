@@ -1,16 +1,14 @@
+body {
+    background-color: #000;
+    color: #fff;
+  }
+
 .margin {
     margin: 15px
 }
 
 .center {
     text-align: center;
-}
-
-.border {
-    width: 80%;
-    margin: 20px auto; /*Centre les div dans la page*/
-    background-color: #a9a9a9a9;
-    border-radius: 20px;
 }
 
 .error {

@@ -1,6 +1,5 @@
 import '../pages/pages.css'
 import { useNavigate } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 
 import opensource_png from '../others/languages/images/opensource.png'
 import react_png from '../others/languages/images/react.png'
@@ -30,7 +29,7 @@ function Tools() {
     </div>
     <br />
     <div className='center'>
-      <button className="btn elevated rounded" onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource_png} />Applications</button>&nbsp;&nbsp;
+      <button type="button" className="btn btn-outline-secondary" onClick={() => navigate("/apps")}><img alt="Open-Source" height="25" width="25" src={opensource_png} />Applications</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/react")}><img alt="React" height="25" width="30" src={react_png} />React</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/angular")}><img alt="Angular" height="25" width="25" src={angular_png} />Angular</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/vue")}><img alt="Vue" height="25" width="30" src={vue_png} />Vue</button>&nbsp;&nbsp;
@@ -39,7 +38,6 @@ function Tools() {
       <button className="btn elevated rounded" onClick={() => navigate("/js")}><img alt="JavaScript" height="25" width="29" src={js_png} />JavaScript</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/ts")}><img alt="TypeScript" height="25" width="30" src={ts_png} />TypeScript</button>&nbsp;&nbsp;
       <button className="btn elevated rounded" onClick={() => navigate("/reactn")}><img alt="React" height="25" width="30" src={react_png} />React Native</button>&nbsp;&nbsp;
-      <Button variant="dark" onClick={() => navigate("/reactn")}>Test</Button>
       <br />
       <br />
       <button className="btn elevated rounded" onClick={() => navigate("/tuto")}><img alt="Tutoriels" height="25" width="30" src={tuto_png} />Apprendre</button>&nbsp;&nbsp;
