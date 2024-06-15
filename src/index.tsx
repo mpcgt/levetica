@@ -14,7 +14,7 @@ function Text() {
         <br />
         <div className="text-center">
         <div className="marginstart">
-          <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
+          <a href="https://github.com/mpcgt/levetica" rel="noopener" target="_blank">
             {" "}
             {/* Lien cliquable sur l'image/logo */}
             <img src={imagePathWhite} className="logo" alt="Levetica" />{" "}

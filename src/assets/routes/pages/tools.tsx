@@ -25,7 +25,7 @@ function Tools() {
      </div>
       <br />
       <div className='margin'>
-      <h3>Les outils adaptés par langages de programmation sont des ressources essentielles pour les développeurs, leur permettant de travailler de manière efficace et efficiente dans un environnement de développement spécifique à chaque langage. Ces outils sont conçus pour répondre aux besoins particuliers des développeurs travaillant dans un langage spécifique, en offrant des fonctionnalités telles que la syntaxe de coloration, la complétion automatique de code, la vérification de la syntaxe, le débogage et le profilage. Ces outils permettent aux développeurs de gagner du temps, de réduire les erreurs et d'améliorer leur productivité en fournissant un environnement de développement spécialement adapté aux particularités et aux exigences de chaque langage de programmation.</h3>
+      <h5 className='text-center'>Les outils adaptés par langages de programmation sont des ressources essentielles pour les développeurs, leur permettant de travailler de manière efficace dans un environnement de développement spécifique à chaque langage en offrant des fonctionnalités telles que la syntaxe de coloration, la complétion automatique de code, la vérification de la syntaxe et le débogage. Ces outils permettent aux développeurs de gagner du temps, de réduire les erreurs et d'améliorer leur productivité en fournissant un environnement de développement spécialement adapté aux particularités et aux exigences de chaque langage de programmation.</h5>
     </div>
     <br />
     <div className='center'>
@@ -42,7 +42,7 @@ function Tools() {
       <br />
       <button className="btn elevated rounded" onClick={() => navigate("/tuto")}><img alt="Tutoriels" height="25" width="30" src={tuto_png} />Apprendre</button>&nbsp;&nbsp;
 
-    <h4>Les noms des applications sont des liens cliquables qui vous redirigent vers le site officiel de l'application.</h4>
+    <h4><i>Les noms des applications sont des liens cliquables qui vous redirigent vers le site officiel de l'application.</i></h4>
     </div>
   </div>
   </>

@@ -9,9 +9,9 @@ export default function Navbar() {
       </Link>
       <ul>
         <CustomLink to="/"><i className="fa-solid fa-house"></i>&nbsp;Accueil</CustomLink>
-        <CustomLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Pricing</CustomLink>
+        <CustomLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Produits</CustomLink>
         <CustomLink to="/articles"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</CustomLink>
-        <CustomLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;About</CustomLink>
+        <CustomLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</CustomLink>
       </ul>
     </nav>
   )
