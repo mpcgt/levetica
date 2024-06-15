@@ -82,3 +82,10 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+
+              
+- name: TruffleHog OSS
+  uses: trufflesecurity/trufflehog@v3.78.1
+
+
+            
