@@ -14,7 +14,7 @@ export default function Navbar() {
         <CustomLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</CustomLink>
         <CustomLink to="https://github.com/mpcgt/levetica" target="_blank"><i className="fa-brands fa-github"></i>&nbsp;GitHub</CustomLink>
       </ul>
-    </nav>Lv
+    </nav>
   )
 }
 
