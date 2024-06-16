@@ -1,5 +1,4 @@
 import Hero from '../src/assets/components/hero/hero'
-import imagePathWhite from "../src/assets/lvtcw-letters.png";
 import dev from "../src/assets/images/dev.png";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
@@ -8,25 +7,7 @@ import "./index.css";
 function Text() {
   return (
     <>
-      <div>
         <Hero />
-        <div className="text-center">
-        <div className="marginstart">
-          <a href="https://github.com/mpcgt/levetica" rel="noopener" target="_blank">
-            {" "}
-            {/* Lien cliquable sur l'image/logo */}
-            <img src={imagePathWhite} className="logo" alt="Levetica" />{" "}
-            {/* Un logo qui fait 250px de hauteur et 450px de largeur */}
-          </a>
-          <br />
-          <h1 className="ahsing">
-            Fini les hésitations, trouve les outils adaptés à tes besoins. 👨‍💻⚛️
-          </h1>{" "}
-          {/* Titre */}
-        </div>
-        </div>
-      </div>
-
       <div className="center">
         {" "}
         {/* Centrer le texte */}
@@ -37,7 +18,7 @@ function Text() {
             <br />
             <br />
             Ce site web est actuellement en construction, ce site sera
-            officiellement publiée le <b>1er juillet 2024 à 18h.</b> <i>Vous êtes actuellement dans la version 1.2.0 (5 mai 2024)</i>
+            officiellement publiée le <b>1er juillet 2024 à 18h.</b> <i>Vous êtes actuellement dans la version 1.3.0-beta.1 (16 juin 2024)</i>
             <br />
             <br />
             Vous avez atteint le site web de <b>Levetica</b>, un site web de nos

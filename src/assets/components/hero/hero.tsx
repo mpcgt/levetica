@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="display-5 fw-bold text-start lh-1 mb-3 ahsing">
             Fini les hésitations, trouve les outils adaptés à tes besoins.
           </h1>
-          <h5 className="text-start font">
+          <h5 className="text-start font fs-5">
             Les outils adaptés par langages de programmation sont des ressources
             essentielles pour les développeurs, leur permettant de travailler de
             manière efficace dans un environnement de développement spécifique à
@@ -33,6 +33,7 @@ const Hero = () => {
             de coloration, la complétion automatique de code, la vérification de
             la syntaxe et le débogage.{" "}
           </h5>
+          <br />
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
               type="button"

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     background-color: #000;
     color: #fff;
@@ -29,4 +33,18 @@ body {
 
 .ahsing {
     font-family: ahsing;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }

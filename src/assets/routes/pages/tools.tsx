@@ -24,6 +24,7 @@ function Tools() {
           <div className="ahsing">
             <h1>Guide d'outils pour les développeurs</h1>
           </div>
+          </div>
         </div>
         <br />
         <div className="margin">
@@ -39,7 +40,6 @@ function Tools() {
             spécialement adapté aux particularités et aux exigences de chaque
             langage de programmation.
           </h5>
-        </div>
         <br />
         <div className="center">
           <button

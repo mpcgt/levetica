@@ -43,7 +43,7 @@ function News() {
       <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nulla obcaecati assumenda quis maxime qui rem impedit cum officia porro!</p>
     </div>
     <div className="card-footer bg-secondary rounded-bottom">
-      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
+      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>  
     </div>
   </div>
 </div>

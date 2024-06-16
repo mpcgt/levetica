@@ -1,19 +1,45 @@
-const Footer = () => {
+"use client";
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import { Footer } from "flowbite-react";
+import Lvtc from "../lvtcw-letters.png"
+
+export function FooterNew() {
   return (
-
-<div className="container">
-  <footer className="py-3 my-4">
-    <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Home</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Features</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li className="nav-item"><a href="#" className="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
-    <p className="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
-  </footer>
-</div>
+    <Footer container>
+      <div className="w-full text-center bg-dark">
+        <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
+          <div className="ms-5 mt-3">
+          <Footer.Brand
+            href="https://github.com/mpcgt/levetica"
+            src={Lvtc}
+            alt="Levetica Logo"
+          />
+          </div>
+          <Footer.LinkGroup>
+            <FooterLink to="/"><i className="fa-solid fa-house"></i>&nbsp;Accueil</FooterLink>&nbsp;&nbsp;
+            <FooterLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Outils</FooterLink>&nbsp;&nbsp;
+            <FooterLink to="/articles"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</FooterLink>&nbsp;&nbsp;
+            <FooterLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</FooterLink>&nbsp;&nbsp;
+            <FooterLink to="https://github.com/mpcgt/levetica" target="_blank"><i className="fa-brands fa-github"></i>&nbsp;GitHub</FooterLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </Footer.LinkGroup>
+        </div>
+        <Footer.Divider />
+      </div>
+    </Footer>
   );
-};
+}
 
-export default Footer;
+function FooterLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
+
+export default FooterNew

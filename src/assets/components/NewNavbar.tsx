@@ -9,7 +9,7 @@ export default function Navbar() {
       </Link>
       <ul>
         <CustomLink to="/"><i className="fa-solid fa-house"></i>&nbsp;Accueil</CustomLink>
-        <CustomLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Produits</CustomLink>
+        <CustomLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Outils</CustomLink>
         <CustomLink to="/articles"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</CustomLink>
         <CustomLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</CustomLink>
         <CustomLink to="https://github.com/mpcgt/levetica" target="_blank"><i className="fa-brands fa-github"></i>&nbsp;GitHub</CustomLink>

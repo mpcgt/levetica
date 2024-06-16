@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import Navbar from '../src/assets/components/NewNavbar'
+import Themes from '../src/assets/components/themes/themes'
+import FooterNew from '../src/assets/components/Footer'
 import '../src/index.css'
 import Home from '../src/index';
 import Products from '../src/assets/routes/pages/tools';
