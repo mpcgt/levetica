@@ -22,6 +22,11 @@ body {
     src: url(../src/fonts/Ahsing/Ahsing-Regular.otf);
 }
 
+@font-face {
+    font-family: roboto-regular;
+    src: url(../src/fonts/Roboto/Roboto-Regular.ttf);
+}
+
 .ahsing {
     font-family: ahsing;
 }

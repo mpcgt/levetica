@@ -1,3 +1,4 @@
+import Hero from '../src/assets/components/hero/hero'
 import imagePathWhite from "../src/assets/lvtcw-letters.png";
 import dev from "../src/assets/images/dev.png";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -8,10 +9,7 @@ function Text() {
   return (
     <>
       <div>
-        <br />
-        <br />
-        <br />
-        <br />
+        <Hero />
         <div className="text-center">
         <div className="marginstart">
           <a href="https://github.com/mpcgt/levetica" rel="noopener" target="_blank">
