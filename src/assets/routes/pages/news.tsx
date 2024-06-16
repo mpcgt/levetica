@@ -1,8 +1,7 @@
-import '../pages/pages.css'
+import LvtcLogo from './images/levetica-purple.png'
 
 function News() {
   return (
-    <>
     <div>
       <br />
       <br />
@@ -16,80 +15,39 @@ function News() {
 
       <br />
 
-      <div className="card">
-      <div className="card-header">
-      <div className='black'><h2>Levetica</h2></div>
-      </div>
-      <div className="card-body">
-        <h3>Les articles seront bientôt disponible dans Levetica !</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div className="card-footer">
-        <p>Dernière mise à jour : 05/05/2024 à 23h50 par Max</p>
-      </div>
-      </div>
-
-      <br />
-
-      <div className="card">
-      <div className="card-header">
-      <div className='black'><h2>Levetica</h2></div>
-      </div>
-      <div className="card-body">
-        <h3>Les articles seront bientôt disponible dans Levetica !</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div className="card-footer">
-        <p>Dernière mise à jour : 05/05/2024 à 23h50 par Max</p>
-      </div>
-      </div>
-
-      <br />
-
-      <div className="card">
-      <div className="card-header">
-      <div className='black'><h2>Levetica</h2></div>
-      </div>
-      <div className="card-body">
-        <h3>Les articles seront bientôt disponible dans Levetica !</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div className="card-footer">
-        <p>Dernière mise à jour : 05/05/2024 à 23h50 par Max</p>
-      </div>
-      </div>
-
-      <br />
-
-    <div className="card">
-    <div className="card-header">
-    <div className='black'><h2>Levetica</h2></div>
-    </div>
+      <div className="card-group">
+  <div className="card">
+    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
     <div className="card-body">
-      <h3>Les articles seront bientôt disponible dans Levetica !</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <h5 className="card-title text-light">Bientôt disponible</h5>
+      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic nihil et quod earum eum, ullam dignissimos quo consectetur mollitia.</p>
     </div>
-    <div className="card-footer">
-      <p>Dernière mise à jour : 05/05/2024 à 23h50 par Max</p>
-    </div>
-    </div>
-
-    <br />
-
-    <div className="card">
-    <div className="card-header">
-    <div className='black'><h2>Levetica</h2></div>
-    </div>
-    <div className="card-body">
-      <h3>Les articles seront bientôt disponible dans Levetica !</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div className="card-footer">
-      <p>Dernière mise à jour : 05/05/2024 à 23h50 par Max</p>
-    </div>
+    <div className="card-footer bg-secondary rounded-bottom">
+      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
     </div>
   </div>
-  </>
+  <div className="card">
+    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
+    <div className="card-body">
+      <h5 className="card-title text-light">Bientôt disponible</h5>
+      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio similique non asperiores nisi illum sequi saepe, adipisci quos voluptatum culpa!</p>
+    </div>
+    <div className="card-footer bg-secondary rounded-bottom">
+      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
+    </div>
+  </div>
+  <div className="card">
+    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
+    <div className="card-body">
+      <h5 className="card-title text-light">Bientôt disponible</h5>
+      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nulla obcaecati assumenda quis maxime qui rem impedit cum officia porro!</p>
+    </div>
+    <div className="card-footer bg-secondary rounded-bottom">
+      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
+    </div>
+  </div>
+</div>
+</div>
   )
 }
 

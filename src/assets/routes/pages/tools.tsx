@@ -44,7 +44,7 @@ function Tools() {
         <div className="center">
           <button
             type="button"
-            className="btn btn-outline-secondary"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/apps")}
           >
             <img
@@ -57,7 +57,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/react")}
           >
             <img alt="React" height="25" width="30" src={react_png} />
@@ -65,7 +65,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/angular")}
           >
             <img alt="Angular" height="25" width="25" src={angular_png} />
@@ -73,7 +73,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/vue")}
           >
             <img alt="Vue" height="25" width="30" src={vue_png} />
@@ -81,7 +81,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/html")}
           >
             <img alt="HTML" height="25" width="30" src={html_png} />
@@ -89,7 +89,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/css")}
           >
             <img alt="CSS" height="25" width="20" src={css_png} />
@@ -97,7 +97,7 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/js")}
           >
             <img alt="JavaScript" height="25" width="29" src={js_png} />
@@ -105,15 +105,15 @@ function Tools() {
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/ts")}
           >
-            <img alt="TypeScript" height="25" width="30" src={ts_png} />
+            <img alt="TypeScript" height="25" width="29" src={ts_png} />
             &nbsp;&nbsp;TypeScript
           </button>
           &nbsp;&nbsp;
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/reactn")}
           >
             <img alt="React" height="25" width="30" src={react_png} />
@@ -123,7 +123,7 @@ function Tools() {
           <br />
           <br />
           <button
-            className="btn elevated rounded"
+            className="btn btn-outline-secondary text-light"
             onClick={() => navigate("/tuto")}
           >
             <img alt="Tutoriels" height="25" width="30" src={tuto_png} />
