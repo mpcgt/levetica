@@ -6,7 +6,7 @@ import Navbar from '../src/assets/components/Navbar'
 import Toasts from '../src/assets/components/toasts/toasts'
 import '../src/index.css'
 import Home from '../src/index';
-import Products from '../src/assets/routes/pages/tools';
+import Products from './assets/components/tools/tools';
 import Articles from '../src/assets/routes/pages/news';
 import About from '../src/assets/routes/pages/about';
 import Apps from '../src/assets/routes/pages/languages/apps'
@@ -19,6 +19,13 @@ import Reactn from '../src/assets/routes/pages/languages/reactn'
 import TS from '../src/assets/routes/pages/languages/ts'
 import Vue from '../src/assets/routes/pages/languages/vue'
 import Tuto from '../src/assets/routes/pages/languages/tuto'
+import Add from '../src/assets/components/tools/pages/add'
+import All from '../src/assets/components/tools/pages/all'
+import Download from '../src/assets/components/tools/pages/download'
+import Explore from '../src/assets/components/tools/pages/explore'
+import Profile from '../src/assets/components/tools/pages/profile'
+import Security from '../src/assets/components/tools/pages/security'
+
 
 const App = () => {
   return (
@@ -43,6 +50,12 @@ const App = () => {
           <Route path='/ts' element={<TS />} />
           <Route path='/vue' element={<Vue />} />
           <Route path='/tuto' element={<Tuto />} />
+          <Route path="/add" element={<Add />} />
+          <Route path="/all" element={<All />} />
+          <Route path="/download" element={<Download/>} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/security" element={<Security />} />
         </Routes>
       </div>
     </Router>
