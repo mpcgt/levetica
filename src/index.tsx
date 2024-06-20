@@ -1,9 +1,11 @@
 import Hero from '../src/assets/components/hero/hero'
 import dev from "../src/assets/images/dev.png";
+import transition from "../src/assets/routes/pages/transition"
 import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
 import "./index.css";
 
+// eslint-disable-next-line react-refresh/only-export-components
 function Text() {
   return (
     <>
@@ -100,4 +102,5 @@ function Text() {
   );
 }
 
-export default Text;
+// eslint-disable-next-line react-refresh/only-export-components
+export default transition(Text);

@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { AnimatePresence } from "framer-motion"
 import Navbar from '../src/assets/components/Navbar'
-import Toasts from '../src/assets/components/toasts/toasts'
+import FooterNew from '../src/assets/components/Footer'
 import '../src/index.css'
 import Home from '../src/index';
 import Products from './assets/components/tools/tools';
@@ -34,7 +35,7 @@ const App = () => {
       <SpeedInsights />
       <div className="header">
         <Navbar />
-      <Toasts />
+        <AnimatePresence mode='wait' />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products />} />
@@ -58,6 +59,8 @@ const App = () => {
           <Route path="/security" element={<Security />} />
         </Routes>
       </div>
+      <FooterNew />
+    <AnimatePresence />
     </Router>
   );
 };

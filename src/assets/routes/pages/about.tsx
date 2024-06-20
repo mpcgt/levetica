@@ -1,5 +1,7 @@
 import '../pages/pages.css'
+import transition from "./transition"
 
+// eslint-disable-next-line react-refresh/only-export-components
 function About() {
   return (
     <>
@@ -43,4 +45,5 @@ function About() {
   )
 }
 
-export default About;
+// eslint-disable-next-line react-refresh/only-export-components
+export default transition(About);

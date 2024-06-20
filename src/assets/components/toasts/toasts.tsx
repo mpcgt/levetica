@@ -13,7 +13,7 @@ function Toasts() {
         Ce site web est actuellement en construction, ce site sera
         officiellement publiée le <b>1er juillet 2024 à 18h.</b>{" "}
         <i>
-          Vous êtes actuellement dans la version 1.3.0-beta.5 (20 juin 2024)
+          Vous êtes actuellement dans la version 1.3.0-beta.7 (20 juin 2024)
         </i>
       </Toast.Body>
     </Toast>
