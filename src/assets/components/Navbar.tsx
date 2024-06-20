@@ -1,36 +1,22 @@
-import { Component } from "react";
-import { MenuData } from "./MenuData";
-import './NavbarStyles.css';
-import LvtcLogo from '../lvtcw-letters.png';
+import { Link } from "react-router-dom"
+import { Nav } from "react-bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../components/hero/hero.css";
 
-class Navbar extends Component {
-    state = {clicked: false};
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
-    render(){
-        return(
-            <nav className="NavbarItems">
-                <img src={LvtcLogo} height={50} width={300} />
-                <div className="menu-icons" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}/>
-                </div>
-                <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-                    {MenuData.map((item, index)=>{
-                        return (
-                            <li key={index}>
-                                <a href={item.url}
-                                className={item.cName}>
-                                    <i className={item.icon} />{item.title}
-                                </a>
-                            </li>
-                        )
-                    })}
-                    
-                </ul>
-            </nav>
-        )
-    }
+export default function Navbar() {
+    return(
+    <nav className="navbar navbar-expand-lg body-tertiary">
+    <a className="navbar-brand d-flex text-start" href="#"></a><p className="ahsing mb-2 fs-2">Levetica</p>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+      <div className="navbar-nav mx-5">
+            <Nav.Link as={Link} to="/"><span className="text-light"><i className="fa-solid fa-house"></i>&nbsp;Accueil</span></Nav.Link>
+            <Nav.Link as={Link} to="/products"><span className="text-light"><i className="fa-solid fa-book"></i>&nbsp;Outils</span></Nav.Link>
+            <Nav.Link as={Link} to="/articles"><span className="text-light"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</span></Nav.Link>
+            <Nav.Link as={Link} to="/about"><span className="text-light"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</span></Nav.Link>
+            <Nav.Link as={Link} to="https://github.com/mpcgt/levetica" target="_blank"><span className="text-light"><i className="fa-brands fa-github"></i>&nbsp;GitHub</span></Nav.Link>
+      </div>
+</nav>
+    )
 }
-
-export default Navbar;
