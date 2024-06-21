@@ -1,4 +1,3 @@
-import LvtcLogo from './images/levetica-purple.png'
 import transition from "./transition"
 
 // eslint-disable-next-line react-refresh/only-export-components
@@ -7,49 +6,66 @@ function News() {
     <div>
       <br />
       <br />
-      <br />
-      <br />
      <div className='center'>
-        <div className='ahsing'><h1>Articles Levetica</h1></div>
+        <div className='ahsing fs-1'><h1>Articles Levetica</h1></div>
       <br />
       <hr />
       </div>
 
       <br />
 
-      <div className="card-group">
-  <div className="card">
-    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
-    <div className="card-body">
-      <h5 className="card-title text-light">Bientôt disponible</h5>
-      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam hic nihil et quod earum eum, ullam dignissimos quo consectetur mollitia.</p>
-    </div>
-    <button type="button" className="btn btn-outline-secondary" >Voir ce blog&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></button>
-    <div className="card-footer bg-secondary rounded-bottom">
-      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
+      <main className="container">
+  <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+    <div className="col-lg-6 px-0">
+      <h1 className="display-4 fst-italic">Nouvelle version 1.3.0</h1>
+      <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p className="lead mb-0"><a href="#" className="text-body-emphasis fw-bold">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a></p>
     </div>
   </div>
-  <div className="card">
-    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
-    <div className="card-body">
-      <h5 className="card-title text-light">Bientôt disponible</h5>
-      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio similique non asperiores nisi illum sequi saepe, adipisci quos voluptatum culpa!</p>
+
+  <div className="row mb-2">
+    <div className="col-md-6">
+      <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div className="col p-4 d-flex flex-column position-static">
+          <div className="text-start">
+          <strong className="d-inline-block mb-2 text-primary-emphasis">Bientôt disponible</strong>
+          <h3 className="mb-0">Bientôt disponible</h3>
+          <div className="mb-1 text-body-secondary">21/06/2024</div>
+          <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>
+          <a href="#" className="icon-link gap-1 text-dark icon-link-hover stretched-link">
+            En savoir plus
+            <i className="fa-solid fa-arrow-right"></i>
+            <svg className="bi"><use xlinkHref="#chevron-right"/></svg>
+          </a>
+          </div>
+        </div>
+        <div className="col-auto d-none d-lg-block">
+          <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="20%" y="50%" fill="#eceeef" dy=".3em">Bientôt disponible</text></svg>
+        </div>
+      </div>
     </div>
-    <div className="card-footer bg-secondary rounded-bottom">
-      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>
+    <div className="col-md-6">
+      <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div className="col p-4 d-flex flex-column position-static">
+        <div className="text-start">
+        <strong className="d-inline-block mb-2 text-primary-emphasis">Bientôt disponible</strong>
+        <h3 className="mb-0">Bientôt disponible</h3>
+        <div className="mb-1 text-body-secondary">21/06/2024</div>
+        <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>
+        <a href="#" className="icon-link gap-1 text-dark icon-link-hover stretched-link">
+            En savoir plus
+            <i className="fa-solid fa-arrow-right"></i>
+            <svg className="bi"><use xlinkHref="#chevron-right"/></svg>
+          </a>
+        </div>
+        </div>
+        <div className="col-auto d-none d-lg-block">
+          <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="20%" y="50%" fill="#eceeef" dy=".3em">Bientôt disponible</text></svg>
+        </div>
+      </div>
     </div>
   </div>
-  <div className="card">
-    <img src={LvtcLogo} className="card-img-top" alt="Logo Levetica" />
-    <div className="card-body">
-      <h5 className="card-title text-light">Bientôt disponible</h5>
-      <p className="card-text text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nulla obcaecati assumenda quis maxime qui rem impedit cum officia porro!</p>
-    </div>
-    <div className="card-footer bg-secondary rounded-bottom">
-      <small className="text-light">Dernière mise à jour le 16 juin 2024</small>  
-    </div>
-  </div>
-</div>
+  </main>
 </div>
   )
 }

@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
               type="button"
-              className="btn btn-primary btn-lg px-4 me-md-2"
+              className="btn btn-success btn-lg px-4 me-md-2"
               onClick={() => navigate("/products")}
             >
               Voir les outils

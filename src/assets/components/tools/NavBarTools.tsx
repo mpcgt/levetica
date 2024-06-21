@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NavbarTools() {
   return (
-    <nav className="navbar bg-secondary navbar-expand-lg">
+    <nav className="navbar bg-body-secondary navbar-expand-lg">
       <a className="navbar-brand d-flex text-start" href="#"></a>
       <p className="ahsing mb-2 fs-2">Outils</p>&nbsp;
       <small className="red ahsing">Beta</small>
@@ -21,38 +21,38 @@ export default function NavbarTools() {
       </button>
       <div className="navbar-nav mx-5">
         <Nav.Link as={Link} to="/explore">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-compass"></i>&nbsp;Explorer
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/all">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-screwdriver-wrench"></i>&nbsp;Tous les
             outils
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/download">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-download"></i>&nbsp;Télécharger
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/security">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-shield-halved"></i>&nbsp;Sécurité
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="https://github.com/mpcgt/levetica/discussions" target="_blank">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-comments"></i>&nbsp;Communauté
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/add">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-plus"></i>&nbsp;Ajouter un outil
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/profile">
-          <span className="text-light">
+          <span className="text-dark">
             <i className="fa-solid fa-user"></i>&nbsp;Mon Profil
           </span>
         </Nav.Link>

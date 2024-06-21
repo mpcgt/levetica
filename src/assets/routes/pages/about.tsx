@@ -8,18 +8,14 @@ function About() {
     <div>
       <br />
       <br />
-      <br />
-      <br />
      <div className='center'>
-     <div className='ahsing'><h1><b>À propos de Levetica</b></h1></div>
-      <div className='center'>
-      <a href="https://levetica.vercel.app" rel="noopener" target="_blank">
-          <img src='https://raw.githubusercontent.com/mpcgt/levetica/main/src/assets/lvtcw-home.png' height="350" width="600" className="logo" alt="Levetica" />
-        </a>
-      </div>
+     <div className='ahsing fs-1'><h1><b>À propos</b></h1>
+      <h1 className="ahsing text-light mt-5 mb-5">Levetica</h1>
+        </div>
         </div>
       
         <div className='margin'>
+          <h3 className='center mb-3 fw-bold fs-3 italic'>Modification prévu dans quelques jours</h3>
           <h2>Le but de ce projet est d'aider les développeurs, débutants ou expérimentés, à trouver les outils et les langages de programmation les plus adaptés à leurs besoins.</h2>
             <br />
             <br />
