@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="col-lg-6">
           <div className="alert alert-light ms-5 me-5" role="alert">
-          <i className="fa-solid fa-circle-info"></i>&nbsp;&nbsp;Annonce d'une nouvelle version 1.3.0 | <a href="#" className="alert-link decoration-none">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a>
+          <i className="fa-solid fa-circle-info"></i>&nbsp;&nbsp;Annonce d'une nouvelle version 1.3.0 | <a href="https://github.com/mpcgt/levetica/releases/tag/v.1.3.0" target="_blank" className="alert-link decoration-none">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a>
           </div>
           <h1 className="display-5 fw-bold text-start lh-1 mb-3 ahsing">
             Fini les hésitations, trouve les outils adaptés à tes besoins.

@@ -16,6 +16,7 @@ function Text() {
         <div className="margin">
           {" "}
           {/* Décale le texte en 15px */}
+          <h3 className='center mb-5 fw-bold fs-3 italic'>Modification prévu dans quelques jours</h3>
           <h2>Bonjour ! 👋🏼</h2>
           <h4>
             <b>
