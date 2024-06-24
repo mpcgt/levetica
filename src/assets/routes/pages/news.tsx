@@ -32,7 +32,7 @@ function News() {
           <h3 className="mb-0">Bientôt disponible</h3>
           <div className="mb-1 text-body-secondary">21/06/2024</div>
           <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>
-          <a href="#" className="icon-link gap-1 text-dark icon-link-hover stretched-link">
+          <a href="#" className="icon-link gap-1 text-light icon-link-hover stretched-link">
             En savoir plus
             <i className="fa-solid fa-arrow-right"></i>
             <svg className="bi"><use xlinkHref="#chevron-right"/></svg>
@@ -52,7 +52,7 @@ function News() {
         <h3 className="mb-0">Bientôt disponible</h3>
         <div className="mb-1 text-body-secondary">21/06/2024</div>
         <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>
-        <a href="#" className="icon-link gap-1 text-dark icon-link-hover stretched-link">
+        <a href="#" className="icon-link gap-1 text-light icon-link-hover stretched-link">
             En savoir plus
             <i className="fa-solid fa-arrow-right"></i>
             <svg className="bi"><use xlinkHref="#chevron-right"/></svg>

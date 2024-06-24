@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-color: #C0CFC0;
-    color: #000;
+    background-color: #171918;
+    color: #fff;
   }
 
 .margin {
@@ -47,4 +47,8 @@ body {
 
 .float-right {
     float: right;
+}
+
+.container-home {
+    margin-top: 10px;
 }

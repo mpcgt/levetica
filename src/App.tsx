@@ -26,6 +26,7 @@ import Download from '../src/assets/components/tools/pages/download'
 import Explore from '../src/assets/components/tools/pages/explore'
 import Profile from '../src/assets/components/tools/pages/profile'
 import Security from '../src/assets/components/tools/pages/security'
+import Error from '../src/404'
 
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/explore" element={<Explore />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/security" element={<Security />} />
+          <Route path='/error' element={<Error />} />
         </Routes>
       </div>
       <FooterNew />

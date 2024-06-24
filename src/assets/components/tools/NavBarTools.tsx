@@ -6,7 +6,7 @@ export default function NavbarTools() {
   return (
     <nav className="navbar bg-body-secondary navbar-expand-lg">
       <a className="navbar-brand d-flex text-start" href="#"></a>
-      <p className="ahsing mb-2 fs-2">Outils</p>&nbsp;
+      <p className="ahsing mb-2 fs-2 text-dark">Outils</p>&nbsp;
       <small className="red ahsing">Beta</small>
       <button
         className="navbar-toggler"

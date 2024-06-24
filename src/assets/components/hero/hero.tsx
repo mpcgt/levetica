@@ -40,7 +40,8 @@ const Hero = () => {
               className="btn btn-success btn-lg px-4 me-md-2"
               onClick={() => navigate("/products")}
             >
-              Voir les outils
+              Voir les outils&nbsp;&nbsp;
+              <i className="fa-solid fa-arrow-right"></i>
             </button>
             <Dropdown>
               <Dropdown.Toggle
