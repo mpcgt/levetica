@@ -12,7 +12,7 @@ function Download() {
         id="modalChoice"
       >
         <div className="modal-dialog" role="document">
-          <div className="modal-content rounded-3 shadow">
+          <div className="modal-content rounded-3 shadow bg-dark">
             <div className="modal-body p-4 text-center">
               <h5 className="mb-0">Oh non... 😓</h5>
               <p className="mb-0">

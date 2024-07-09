@@ -19,7 +19,7 @@ function News() {
     <div className="col-lg-6 px-0">
       <h1 className="display-4 fst-italic">Nouvelle version 1.3.0</h1>
       <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p className="lead mb-0"><a href="#" className="text-body-emphasis fw-bold">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a></p>
+      <p className="lead mb-0"><a href="https://github.com/mpcgt/levetica/releases" target="_blank" className="text-body-emphasis fw-bold">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a></p>
     </div>
   </div>
 
