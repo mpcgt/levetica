@@ -23,7 +23,7 @@ function Tools() {
     <img className="me-3" src={Logo} alt="" width="48" height="38" />
     <div className="lh-1">
       <h1 className="h6 mb-0 text-white lh-1">Levetica</h1>
-      <small>v.1.3.0-beta.13</small>
+      <small>v.1.3.0-beta.14</small>
     </div>
   </div>
 
