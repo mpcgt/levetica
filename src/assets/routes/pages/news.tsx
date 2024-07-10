@@ -18,7 +18,7 @@ function News() {
   <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
     <div className="col-lg-6 px-0">
       <h1 className="display-4 fst-italic">Nouvelle version 1.3.0</h1>
-      <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
+      <p className="lead my-3">Dans cette Release, vous pouvez retrouver toutes les modifications et nouveautés dans Levetica ! 🎉</p>
       <p className="lead mb-0"><a href="https://github.com/mpcgt/levetica/releases" target="_blank" className="text-body-emphasis fw-bold">En savoir plus&nbsp;&nbsp;<i className="fa-solid fa-arrow-right"></i></a></p>
     </div>
   </div>
@@ -28,7 +28,7 @@ function News() {
       <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col p-4 d-flex flex-column position-static">
           <div className="text-start">
-          <strong className="d-inline-block mb-2 text-primary-emphasis">Bientôt disponible</strong>
+          <strong className="d-inline-block mb-2 text-light">Bientôt disponible</strong>
           <h3 className="mb-0">Bientôt disponible</h3>
           <div className="mb-1 text-body-secondary">21/06/2024</div>
           <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>
@@ -48,7 +48,7 @@ function News() {
       <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
         <div className="col p-4 d-flex flex-column position-static">
         <div className="text-start">
-        <strong className="d-inline-block mb-2 text-primary-emphasis">Bientôt disponible</strong>
+        <strong className="d-inline-block mb-2 text-light">Bientôt disponible</strong>
         <h3 className="mb-0">Bientôt disponible</h3>
         <div className="mb-1 text-body-secondary">21/06/2024</div>
         <p className="card-text mb-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci exercitationem facere reprehenderit soluta nihil doloremque quo quam praesentium cupiditate.</p>

@@ -20,7 +20,8 @@ export function FooterNew() {
             <FooterLink to="/products"><i className="fa-solid fa-book"></i>&nbsp;Outils</FooterLink>&nbsp;&nbsp;
             <FooterLink to="/articles"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</FooterLink>&nbsp;&nbsp;
             <FooterLink to="/about"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</FooterLink>&nbsp;&nbsp;
-            <FooterLink to="https://github.com/mpcgt/levetica" target="_blank"><i className="fa-brands fa-github"></i>&nbsp;GitHub</FooterLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <FooterLink to="https://github.com/mpcgt/levetica" target="_blank"><i className="fa-brands fa-github"></i>&nbsp;GitHub</FooterLink>&nbsp;&nbsp;
+            <FooterLink to="https://levetica-vercel-app.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp"><i className="fa-solid fa-language"></i>&nbsp;English</FooterLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Footer.LinkGroup>
         </div>
         <Footer.Divider />

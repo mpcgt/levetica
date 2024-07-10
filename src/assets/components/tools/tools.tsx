@@ -7,6 +7,8 @@ import React from './images/react.png'
 import Angular from './images/angular.png'
 import Vue from './images/vue.png'
 import Ubuntu from './images/ubuntu.png'
+import GPT from './images/chatgpt.png'
+import GitHub from './images/github.png'
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
 
@@ -21,7 +23,7 @@ function Tools() {
     <img className="me-3" src={Logo} alt="" width="48" height="38" />
     <div className="lh-1">
       <h1 className="h6 mb-0 text-white lh-1">Levetica</h1>
-      <small>v.1.3.0-beta.11</small>
+      <small>v.1.3.0-beta.13</small>
     </div>
   </div>
 
@@ -68,21 +70,21 @@ function Tools() {
       </div>
     </div>
     <div className="d-flex text-body-secondary pt-3">
-      <svg className="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+      <img src={GPT} width={70} />
       <div className="pb-3 mb-0 small lh-sm border-bottom w-100">
         <div className="d-flex justify-content-between">
-          <strong className="text-light">Nom de l'app</strong>
+          <strong className="text-light">ChatGPT</strong>
         </div>
-        <span className="d-block text-start text-light">Bientôt !</span>
+        <span className="d-block text-start text-light">ChatGPT est un chatbot utilisant l'intelligence artificielle générative, capable de dialoguer avec vous de manière fluide et informative, en s'appuyant sur un immense corpus de données textuelles.<button className='ms-3 btn btn-secondary' onClick={() => navigate("/error")}>Voir</button></span>
       </div>
     </div>
     <div className="d-flex text-body-secondary pt-3">
-      <svg className="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+    <img src={GitHub} width={70} />
       <div className="pb-3 mb-0 small lh-sm border-bottom w-100">
         <div className="d-flex justify-content-between">
-          <strong className="text-light">Nom de l'app</strong>
+          <strong className="text-light">GitHub</strong>
         </div>
-        <span className="d-block text-start text-light">Bientôt !</span>
+        <span className="d-block text-start text-light">GitHub est une plateforme en ligne qui permet aux développeurs de stocker, gérer et collaborer sur des projets de code source en utilisant le système de contrôle de version Git.<button className='ms-3 btn btn-secondary' onClick={() => navigate("/error")}>Voir</button></span>
       </div>
     </div>
     <small className="d-block text-end mt-3">

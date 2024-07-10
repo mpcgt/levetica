@@ -24,7 +24,7 @@ function Profile() {
             <input type="password" className="form-control rounded-3" id="floatingPassword" placeholder="Password" />
             <label className="text-dark" htmlFor="floatingPassword">Mot de passe</label>
           </div>
-          <button className="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" disabled>S'incrire</button>
+          <button className="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit" disabled>S'inscrire</button>
           <small className="text-body-secondary">En cliquant sur "S'inscrire", vous acceptez les conditions d'utilisation.</small>
           <hr className="my-4" />
           <h2 className="fs-5 fw-bold mb-3 text-dark">Ou utiliser un application tiers</h2>

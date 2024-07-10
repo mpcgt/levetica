@@ -43,7 +43,7 @@ export default function NavbarTools() {
         </Nav.Link>
         <Nav.Link as={Link} to="https://github.com/mpcgt/levetica/discussions" target="_blank">
           <span className="text-dark">
-            <i className="fa-solid fa-comments"></i>&nbsp;Communauté
+            <i className="fa-solid fa-comments"></i>&nbsp;Communauté&nbsp;&nbsp;<i className="fa-solid fa-arrow-up-right-from-square"></i>
           </span>
         </Nav.Link>
         <Nav.Link as={Link} to="/add">

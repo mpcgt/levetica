@@ -16,6 +16,7 @@ export default function Navbar() {
             <Nav.Link as={Link} to="/articles"><span className="text-light"><i className="fa-solid fa-newspaper"></i>&nbsp;Articles</span></Nav.Link>
             <Nav.Link as={Link} to="/about"><span className="text-light"><i className="fa-solid fa-circle-info"></i>&nbsp;À propos</span></Nav.Link>
             <Nav.Link as={Link} to="https://github.com/mpcgt/levetica" target="_blank"><span className="text-light"><i className="fa-brands fa-github"></i>&nbsp;GitHub</span></Nav.Link>
+            <Nav.Link as={Link} to="https://levetica-vercel-app.translate.goog/?_x_tr_sl=fr&_x_tr_tl=en&_x_tr_hl=fr&_x_tr_pto=wapp"><span className="text-light"><i className="fa-solid fa-language"></i>&nbsp;English</span></Nav.Link>
       </div>
 </nav>
     )
