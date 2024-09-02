@@ -19,7 +19,7 @@ function Angular() {
       <div className='float'>
     <img alt="Angular IDE" height="70" width="70" src='https://github.com/mpcgt/levetica/blob/main/src/assets/routes/others/languages/images/angular.png?raw=true' /><h2><a href='https://angular.dev' target='_blank'>Angular IDE</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Environnement de développement | Gratuit • Open Source</i></h4>
+      <h4>Environnement de développement | <i className='text-warning'>Gratuit • Open Source</i></h4>
       <h3>Angular IDE est un environnement de développement intégré (IDE) spécialement conçu pour le framework Angular. Il est disponible sous forme de plugin autonome, il facilite le développement en offrant des fonctionnalités spécifiques au framework</h3>
   <br />
       <h2><b>Les fonctionnalités de Angular IDE :</b></h2>
@@ -38,7 +38,7 @@ function Angular() {
       <div className='float'>
     <img alt="Chrome" height="70" width="70" src={chrome} /><h2><a href='https://www.google.com/intl/fr_fr/chrome/' target='_blank'>Google Chrome</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Navigateur web | Gratuit • Propriétaire</i></h4>
+      <h4>Navigateur web | <i className='text-warning'>Gratuit • Propriétaire</i></h4>
       <h3>Google Chrome est un navigateur web gratuit, rapide, sécurisé et personnalisable, disponible sur ordinateurs et appareils mobiles.</h3>
   <br />
       <h2><b>Les fonctionnalités de Google Chrome :</b></h2>
@@ -58,7 +58,7 @@ function Angular() {
       <div className='float'>
     <img alt="IDX" height="70" width="70" src={idx} /><h2><a href='https://idx.dev/' target='_blank'>Project IDX</a></h2> { /* Un logo avec le texte qui fait 70px de hauteur et 70px de largeur */ }
       </div>
-      <h4><i>Éditeur de code | Gratuit • Propriétaire</i></h4>
+      <h4>Éditeur de code | <i className='text-warning'>Gratuit • Propriétaire</i></h4>
       <h3>Project IDX est un environnement de développement web basé sur le cloud et dopé à l'IA, conçu par Google pour faciliter la création et le déploiement d'applications multiplateformes.</h3>
   <br />
       <h2><b>Les fonctionnalités de Project IDX :</b></h2>
