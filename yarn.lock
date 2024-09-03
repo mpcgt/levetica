@@ -1978,7 +1978,7 @@
   resolved "https://registry.yarnpkg.com/@mantine/charts/-/charts-7.12.2.tgz#0e7003195b6002d9c184e8c381c9bec9beb069ad"
   integrity sha512-xKzpnqIRMbBdvykt73eaLBmYlbmPPWTW0UaRVeDVKLBI4rPlPXMlkmviH8Xg6sLY5CgOGQGUzqZ7XGdfPN66Dg==
 
-"@mantine/code-highlight@^7.11.1":
+"@mantine/code-highlight@^7.12.2":
   version "7.12.2"
   resolved "https://registry.yarnpkg.com/@mantine/code-highlight/-/code-highlight-7.12.2.tgz#bbcb38ef045fa71c1a9260fb2cde282ed0c87d52"
   integrity sha512-eVVA6ZmtV2qV60qiQW3wvFbs0ryCmzrCJaqU4GV0D+6lGVn8mwbbo36+Jt4Qz/6FrswPD99ALRBlOwHDJe0P8A==
