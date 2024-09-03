@@ -1973,7 +1973,7 @@
   resolved "https://registry.yarnpkg.com/@mantine/carousel/-/carousel-7.12.2.tgz#bc1cbf986a398ed2c5646f23b1af65fe43f3eaf0"
   integrity sha512-iZsVOqVurm9OxMwPtbeC7Rtpgi6PnmDcRz1an/5p5oOLrzctnvm9IG7EEvd4hkBa+/TnSFLv36jlm6caUvY4Dg==
 
-"@mantine/charts@^7.11.1":
+"@mantine/charts@^7.12.2":
   version "7.12.2"
   resolved "https://registry.yarnpkg.com/@mantine/charts/-/charts-7.12.2.tgz#0e7003195b6002d9c184e8c381c9bec9beb069ad"
   integrity sha512-xKzpnqIRMbBdvykt73eaLBmYlbmPPWTW0UaRVeDVKLBI4rPlPXMlkmviH8Xg6sLY5CgOGQGUzqZ7XGdfPN66Dg==
