@@ -34,7 +34,7 @@
     "@microsoft/eslint-formatter-sarif": "^3.1.0",
     "@mui/material": "^5.16.0",
     "@nextui-org/react": "^2.4.2",
-    "@tabler/icons-react": "^3.10.0",
+    "@tabler/icons-react": "^3.14.0",
     "@tiptap/extension-link": "^2.4.0",
     "@tiptap/react": "^2.4.0",
     "@tiptap/starter-kit": "^2.4.0",
