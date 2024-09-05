@@ -1105,7 +1105,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.4.0.tgz#c9299c34d248bc26e82563735f78953d2efca83c"
   integrity sha512-fTBW9/8r2w3dXWYM4HCB1Rdp8NLibOw2+XELH5m5+AkWiL/KqYX6dc0kKYlaYyKjrQ6ds33MCdMPEwgs2z1rqg==
 
-"@emotion/styled@^11.11.5":
+"@emotion/styled@^11.13.0":
   version "11.13.0"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.13.0.tgz#633fd700db701472c7a5dbef54d6f9834e9fb190"
   integrity sha512-tkzkY7nQhW/zC4hztlwucpT8QEZ6eUzpXDRhww/Eej4tFfO0FxQYWRyg/c5CCXa4d/f174kqeXYjuQRnhzf6dA==
@@ -2038,7 +2038,7 @@
     "@mantine/store" "7.12.2"
     react-transition-group "4.4.5"
 
-"@mantine/nprogress@^7.11.1":
+"@mantine/nprogress@^7.12.2":
   version "7.12.2"
   resolved "https://registry.yarnpkg.com/@mantine/nprogress/-/nprogress-7.12.2.tgz#265e3162ef0da19ebb6460af873373967efc3a92"
   integrity sha512-wm20JxUBUw9V99JM6h14Pb7YLML3FVFN6CFNM4ycGINyQ9tDkNJOe3Db7xUfBX1Pmq+uOzKgN4pgmpmZNfOi6Q==
@@ -5207,7 +5207,7 @@
     "@types/use-sync-external-store" "^0.0.6"
     use-sync-external-store "^1.2.2"
 
-"@tiptap/starter-kit@^2.4.0":
+"@tiptap/starter-kit@^2.6.6":
   version "2.6.6"
   resolved "https://registry.yarnpkg.com/@tiptap/starter-kit/-/starter-kit-2.6.6.tgz#a206e67b7a87fa6a10ff190a84f5d8989b85fe62"
   integrity sha512-zb9xIg3WjG9AsJoyWrfqx5SL9WH7/HTdkB79jFpWtOF/Kaigo7fHFmhs2FsXtJMJlcdMTO2xeRuCYHt5ozXlhg==
@@ -6822,7 +6822,7 @@ find-up@5.0.0, find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase@^10.12.3:
+firebase@^10.13.1:
   version "10.13.1"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-10.13.1.tgz#c26d9e8d19cbeea6e6585c46a903a4a1175a3938"
   integrity sha512-L5BSkmvB2dzCUMpr8i/O8WMJC3Nqj5Ld8Wj/qnak+tz2Ga+JH6/FO93xArg9IGhktCrPXVODoWp6t9ybdgmXCA==
