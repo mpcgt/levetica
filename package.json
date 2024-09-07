@@ -52,7 +52,7 @@
     "lodash": "^4.17.21",
     "lucide-react": "^0.439.0",
     "npm": "^10.8.1",
-    "npm-check-updates": "^16.14.20",
+    "npm-check-updates": "^17.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
