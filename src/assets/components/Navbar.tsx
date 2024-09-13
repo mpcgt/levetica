@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Nav } from "react-bootstrap"
-import OAuth from "./auth/github/GitHubOAuth2.0.jsx"
+import OAuth from "./auth/github/GitHubOAuth2.0.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../components/hero/hero.css";
 
