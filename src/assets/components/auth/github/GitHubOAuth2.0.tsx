@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from 'react'
 
 const CLIENT_ID = "Ov23liU3WPWyMJvgbhv9"
@@ -57,7 +56,7 @@ function Login() {
 function OAuth() {
   window.location.assign("https://github.com/login/oauth/authorize?client_id=" + CLIENT_ID)
 
-  function setRerender(arg0: boolean) {
+  function setRerender(_arg0: boolean) {
     throw new Error('Function not implemented.');
   }
 
