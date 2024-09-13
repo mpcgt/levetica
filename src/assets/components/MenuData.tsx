@@ -25,7 +25,7 @@ export const MenuData = [
     },
     {
         title:"Se connecter",
-        url:"#",
+        url:"Connect",
         cName:"nav-links-mobile"
     },
 ]
