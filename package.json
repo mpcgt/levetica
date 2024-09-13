@@ -53,12 +53,7 @@
     "flowbite-react": "^0.10.1",
     "framer-motion": "^11.2.14",
     "lodash": "^4.17.21",
-<<<<<<< HEAD
-    "lucide-react": "^0.407.0",
-    "node-fetch": "^3.3.2",
-=======
     "lucide-react": "^0.441.0",
->>>>>>> 584eaafb6a0a5944b96c6dcabf159293b08a283f
     "npm": "^10.8.1",
     "npm-check-updates": "^17.1.1",
     "react": "^18.3.1",
@@ -83,20 +78,8 @@
     "postcss": "^8.4.39",
     "postcss-preset-mantine": "^1.15.0",
     "postcss-simple-vars": "^7.0.1",
-<<<<<<< HEAD
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.3"
-  },
-  "description": "<p align=\"center\">\r <img alt=\"Levetica\" height=\"250\" width=\"450\" src=\"https://raw.githubusercontent.com/mpcgt/levetica/main/src/assets/levetica-logo.png\" />\r </p>\r <p align=\"center\">\r <a href=\"https://levetica.vercel.app\"><img src=\"https://img.shields.io/badge/website-operational-green\" alt=\"Site\"></a>\r <a href=\"https://github.com/mpcgt/levetica\"><img src=\"https://img.shields.io/badge/Maintained%3F-no-red\" alt=\"Maintenance\"></a>\r <a href=\"https://github.com/mpcgt/levetica/releases\"><img src=\"https://img.shields.io/github/v/release/mpcgt/levetica\" alt=\"Version\"></a>\r <a href=\"https://github.com/mpcgt/levetica/commits/main/\"><img src=\"https://img.shields.io/github/commit-activity/m/mpcgt/levetica\" alt=\"Commit Activity\"></a>\r <a href=\"[https://github.com/mpcgt/levetica/issues\"><img src=\"https://img.shields.io/github/issues/mpcgt/levetica\" alt=\"Issue\"></a>\r </p>",
-  "main": "postcss.config.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-=======
     "tailwindcss": "^3.4.11",
     "typescript": "^5.6.2",
     "vite": "^5.4.4"
   }
->>>>>>> 584eaafb6a0a5944b96c6dcabf159293b08a283f
 }
