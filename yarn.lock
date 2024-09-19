@@ -4633,10 +4633,10 @@
   resolved "https://registry.npmjs.org/@tiptap/extension-bold/-/extension-bold-2.6.6.tgz"
   integrity sha512-CD6gBhdQtCoqYSmx8oAV8gvKtVOGZSyyvuNYo7by9eZ56DqLYnd7kbUj0RH7o9Ymf/iJTOUJ6XcvrsWwo4lubg==
 
-"@tiptap/extension-bubble-menu@^2.6.6":
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.6.6.tgz"
-  integrity sha512-IkfmlZq67aaegym5sBddBc/xXWCArxn5WJEl1oxKEayjQhybKSaqI7tk0lOx/x7fa5Ml1WlGpCFh+KKXbQTG0g==
+"@tiptap/extension-bubble-menu@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.7.2.tgz#726a9974521926fbbb08a9408f581859ebbb0d34"
+  integrity sha512-U4LjkVDrJZEfWeZai8AYT7GaI6d7gzLm7Z7bSzZ0sH5fOry2qkwLycRDI9YZlM95yaVIVB5GE93lrgDS5mOP3A==
   dependencies:
     tippy.js "^6.3.7"
 
@@ -4665,10 +4665,10 @@
   resolved "https://registry.npmjs.org/@tiptap/extension-dropcursor/-/extension-dropcursor-2.6.6.tgz"
   integrity sha512-O6CeKriA9uyHsg7Ui4z5ZjEWXQxrIL+1zDekffW0wenGC3G4LUsCzAiFS4LSrR9a3u7tnwqGApW10rdkmCGF4w==
 
-"@tiptap/extension-floating-menu@^2.6.6":
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/@tiptap/extension-floating-menu/-/extension-floating-menu-2.6.6.tgz"
-  integrity sha512-lPkESOfAUxgmXRiNqUU23WSyja5FUfSWjsW4hqe+BKNjsUt1OuFMEtYJtNc+MCGhhtPfFvM3Jg6g9jd6g5XsLQ==
+"@tiptap/extension-floating-menu@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-floating-menu/-/extension-floating-menu-2.7.2.tgz#a3d3a8b0c185ff4ac99b8c57cb0aa4a7d592d7cd"
+  integrity sha512-1z/kluQUQP3JmWb7vrC/ERi79lNuQegU6WRptRgSSQhFxeDPQX9CBK3I7HYy9bvSxnIa1/3GrKzL6gfaKU8WDA==
   dependencies:
     tippy.js "^6.3.7"
 
@@ -4758,14 +4758,15 @@
     prosemirror-transform "^1.9.0"
     prosemirror-view "^1.33.9"
 
-"@tiptap/react@^2.4.0":
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/@tiptap/react/-/react-2.6.6.tgz"
-  integrity sha512-AUmdb/J1O/vCO2b8LL68ctcZr9a3931BwX4fUUZ1kCrCA5lTj2xz0rjeAtpxEdzLnR+Z7q96vB7vf7bPYOUAew==
+"@tiptap/react@^2.7.2":
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/@tiptap/react/-/react-2.7.2.tgz#63df356b127c016471561e17ff826eb22e0715be"
+  integrity sha512-4d1TQMRHtqagCarty1iQIJMLYZ2YzBHBgAt4HlPeoDUI4MHZutOIdkl1UXmxZwh/d5p6a+tZGTVOV4aKXMW2Iw==
   dependencies:
-    "@tiptap/extension-bubble-menu" "^2.6.6"
-    "@tiptap/extension-floating-menu" "^2.6.6"
+    "@tiptap/extension-bubble-menu" "^2.7.2"
+    "@tiptap/extension-floating-menu" "^2.7.2"
     "@types/use-sync-external-store" "^0.0.6"
+    fast-deep-equal "^3"
     use-sync-external-store "^1.2.2"
 
 "@tiptap/starter-kit@^2.6.6":
@@ -6569,7 +6570,7 @@ express@^4.21.0:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
+fast-deep-equal@^3, fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
