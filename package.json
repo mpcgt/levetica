@@ -40,7 +40,7 @@
     "@tiptap/starter-kit": "^2.9.1",
     "@types/npm": "^7.19.3",
     "@vercel/analytics": "^1.4.0",
-    "@vercel/speed-insights": "^1.0.14",
+    "@vercel/speed-insights": "^1.1.0",
     "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "cdbreact": "^1.5.19",
