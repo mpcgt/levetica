@@ -30,7 +30,7 @@
     "@mantine/tiptap": "^7.11.1",
     "@mantinex/mantine-logo": "^1.0.1",
     "@materializecss/materialize": "^2.1.0",
-    "@mdx-js/react": "^3.0.1",
+    "@mdx-js/react": "^3.1.0",
     "@microsoft/eslint-formatter-sarif": "^3.1.0",
     "@mui/material": "^6.1.7",
     "@nextui-org/react": "^2.4.8",
