@@ -8045,10 +8045,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-lucide-react@^0.456.0:
-  version "0.456.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.456.0.tgz#14906c3355cc65d3380b7b2294b331aeda1bb392"
-  integrity sha512-DIIGJqTT5X05sbAsQ+OhA8OtJYyD4NsEMCA/HQW/Y6ToPQ7gwbtujIoeAaup4HpHzV35SQOarKAWH8LYglB6eA==
+lucide-react@^0.464.0:
+  version "0.464.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.464.0.tgz#c433870c8ac84372252f39c960851d474059ec96"
+  integrity sha512-eCx1qClbnw5qRqB2Z1AFFp71wdJXEwhPp5ii8LviyvHb7o/7eMXFiTyDHh7JpjM9BO9pC6ZUp/c7mCwwxbPIcg==
 
 make-fetch-happen@^13.0.0, make-fetch-happen@^13.0.1:
   version "13.0.1"
