@@ -37,7 +37,7 @@
     "@tabler/icons-react": "^3.23.0",
     "@tiptap/extension-link": "^2.10.3",
     "@tiptap/react": "^2.9.1",
-    "@tiptap/starter-kit": "^2.9.1",
+    "@tiptap/starter-kit": "^2.10.3",
     "@types/npm": "^7.19.3",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
