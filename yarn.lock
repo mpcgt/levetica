@@ -4110,10 +4110,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-bold/-/extension-bold-2.10.3.tgz#6ffdeed5d1b2c7bd2a248b327083f3db89c02f87"
   integrity sha512-xnF1tS2BsORenr11qyybW120gHaeHKiKq+ZOP14cGA0MsriKvWDnaCSocXP/xMEYHy7+2uUhJ0MsKkHVj4bPzQ==
 
-"@tiptap/extension-bubble-menu@^2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.9.1.tgz#b130d8a0e2879a9378c2e1978c8c3122a1418fa8"
-  integrity sha512-DWUF6NG08/bZDWw0jCeotSTvpkyqZTi4meJPomG9Wzs/Ol7mEwlNCsCViD999g0+IjyXFatBk4DfUq1YDDu++Q==
+"@tiptap/extension-bubble-menu@^2.10.4":
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-bubble-menu/-/extension-bubble-menu-2.10.4.tgz#6d2611fd3dd4c6b848b5f028ba96567aec5bd1e3"
+  integrity sha512-GVtZwJaQyLBptMsmDtYl5GEobd1Uu7C9sc9Z+PdXwMuxmFfg+j07bCKCj5JJj/tjgXCSLVxWdTlDHxNrgzQHjw==
   dependencies:
     tippy.js "^6.3.7"
 
@@ -4142,10 +4142,10 @@
   resolved "https://registry.yarnpkg.com/@tiptap/extension-dropcursor/-/extension-dropcursor-2.10.3.tgz#c5484e16df98f3c43c9f585c5686b38808c4615b"
   integrity sha512-wzWf82ixWzZQr0hxcf/A0ul8NNxgy1N63O+c56st6OomoLuKUJWOXF+cs9O7V+/5rZKWdbdYYoRB5QLvnDBAlQ==
 
-"@tiptap/extension-floating-menu@^2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@tiptap/extension-floating-menu/-/extension-floating-menu-2.9.1.tgz#d0c81ec19b0c57e28e92a990f3cf94c8f256fc96"
-  integrity sha512-MxZ7acNNsoNaKpetxfwi3Z11Bgrh0T2EJlCV77v9N1vWK38+st3H1WJanmLbPNtc2ocvhHJrz+DjDz3CWxQ9rQ==
+"@tiptap/extension-floating-menu@^2.10.4":
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-floating-menu/-/extension-floating-menu-2.10.4.tgz#e00bbeba8b67ce2511464b9b5203a399fc7b4311"
+  integrity sha512-K2MDiu6CwQ7+Jr6g1Lh3Tuxm1L6SefSHMpQO0UW3aRGwgEV5pjlrztnBFX4K9b7MNuQ4dJGCUK9u8Cv7Xss0qg==
   dependencies:
     tippy.js "^6.3.7"
 
@@ -4240,16 +4240,16 @@
     prosemirror-transform "^1.10.2"
     prosemirror-view "^1.37.0"
 
-"@tiptap/react@^2.9.1":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@tiptap/react/-/react-2.9.1.tgz#670224686ee6e4fc01ee479b2887be197d92d520"
-  integrity sha512-LQJ34ZPfXtJF36SZdcn4Fiwsl2WxZ9YRJI87OLnsjJ45O+gV/PfBzz/4ap+LF8LOS0AbbGhTTjBOelPoNm+aYA==
+"@tiptap/react@^2.10.4":
+  version "2.10.4"
+  resolved "https://registry.yarnpkg.com/@tiptap/react/-/react-2.10.4.tgz#cdd898ff2f962ecd7be593606507f95b90fab2f8"
+  integrity sha512-JTeqDB+xgjo46QC9ILRXe2TcSfxKVRwhZ3vDvYoemN7giRk5a/WsCF1VQIT1fax+tCl6kfv3U1f4Mkx0DkbPkA==
   dependencies:
-    "@tiptap/extension-bubble-menu" "^2.9.1"
-    "@tiptap/extension-floating-menu" "^2.9.1"
+    "@tiptap/extension-bubble-menu" "^2.10.4"
+    "@tiptap/extension-floating-menu" "^2.10.4"
     "@types/use-sync-external-store" "^0.0.6"
     fast-deep-equal "^3"
-    use-sync-external-store "^1.2.2"
+    use-sync-external-store "^1"
 
 "@tiptap/starter-kit@^2.10.3":
   version "2.10.3"
@@ -10432,10 +10432,10 @@ use-sidecar@^1.1.2:
     detect-node-es "^1.1.0"
     tslib "^2.0.0"
 
-use-sync-external-store@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.2.tgz"
-  integrity sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==
+use-sync-external-store@^1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.4.0.tgz#adbc795d8eeb47029963016cefdf89dc799fcebc"
+  integrity sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==
 
 utf8@^3.0.0:
   version "3.0.0"
